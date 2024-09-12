@@ -1,0 +1,222 @@
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+em {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+
+
+
+/* Header */
+header {
+    background-color: #ff6f00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav button {
+    background-color: #fff;
+    border: 2px solid #ff6f00;
+    padding: 0.8em;
+    font-size: 1em;
+    color: #ff6f00;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    height: 90px;
+    width: 100px;
+    margin: auto;
+}
+
+nav button:hover {
+    background-color: #d25b00;
+    color: #fff;
+}
+
+nav button:active {
+    transform: scale(0.98);
+}
+
+/* Flask Icons */
+nav button::before {
+    display: block;
+    margin: 0 auto 5px auto;
+    transition: transform 0.3s ease;
+}
+
+nav button:active::before {
+    transform: rotate(20deg); /* Flask icon wiggle effect */
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #ff6f00;
+    font-size: 1.5em;
+}
+
+.card p {
+    color: #666;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.card a {
+    color: #ff6f00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #ff6f00;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 10px;
+}
+
+/* Services Section (Contact Form) */
+#services {
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#services h2 {
+    color: #ff6f00;
+    font-size: 2em;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6f00;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #cc5600;
+}
+

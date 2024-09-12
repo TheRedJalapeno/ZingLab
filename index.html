@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZingLab LLC - Funky, fun, innovative projects, books, and web apps.">
+    <meta name="author" content="Robert Allen">
+    <title>ZingLab LLC</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GOOGLE_ANALYTICS_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'YOUR_GOOGLE_ANALYTICS_ID');
+    </script>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Reem+Kufi+Ink&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <header>
+        <h1>ZingLab LLC</h1>
+        <nav>
+            <ul>
+                <li><button id="booksButton" onclick="loadContent('books')">
+                    <span class="material-symbols-outlined">experiment</span>
+                    <br>Books</button></li>
+                <li><button id="websitesButton" onclick="loadContent('websites')">
+                    <span class="material-symbols-outlined">experiment</span>
+                    <br>Websites</button></li>
+                <li><button id="projectsButton" onclick="loadContent('projects')">
+                    <span class="material-symbols-outlined">experiment</span>
+                    <br>Projects</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="content-section">
+            <!-- Dynamic content will be loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ZingLab LLC - All Rights Reserved.</p>
+    </footer>
+
+    <!-- Services Section (Contact) -->
+    <section id="services">
+        <h2>Contact Us</h2>
+        <p><span>Hi</span>@<span>ZingLab.com</span></p>
+    </section>
+
+    <!-- JavaScript for loading JSON and handling interactivity -->
+    <script src="main.js"></script>
+</body>
+</html>

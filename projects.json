@@ -1,0 +1,89 @@
+{
+    "entries": [
+      {
+        "title": "Kolnari Prologue",
+        "type": "book",
+        "series": "Written By Victors, Book 1",
+        "publication_date": "2024-06-01",
+        "description": "The Kolnari Empire has stood for hundreds of years, exploring and cultivating the galaxy. A small xeno-anthropological survey team finds themselves stranded in a deeply dangerous predicament. Will they be able to escape? Will the risks they take be worth it?",
+        "image_url": "assets/2024_kolnari_prologue.jpg",
+        "link1": "https://a.co/d/bULMHyd",
+        "link2": null
+      },
+      {
+        "title": "Ochre Sky",
+        "type": "book",
+        "series": "Written By Victors, Book 2",
+        "publication_date": "2024-07-01",
+        "description": "Ochre Sky is an ultra-realistic near-future adventure following a group of friends and researchers on a Venus science station. Worldbuilding takes center stage before everything turns upside down. What will happen, floating over their beautiful ball of boiling acid?",
+        "image_url": "assets/2024_ochre_sky.jpg",
+        "link1": "https://a.co/d/hoq61BV",
+        "link2": null
+      },
+      {
+        "title": "Bingo Belt Boys",
+        "type": "book",
+        "series": "Written By Victors, Book 3",
+        "publication_date": "2024-08-01",
+        "description": "Ananya just needed to break away from her overbearing parents and their incessant plan, but now she finds herself a middle manager on a backwater asteroid mining facility on the far side of the sun. Will she survive the psychological and visceral threats?",
+        "image_url": "assets/2024_bingo_belt_boys.jpg",
+        "link1": "https://a.co/d/cMwqszz",
+        "link2": null
+      },
+      {
+        "title": "VS Code Bulk Create Extension",
+        "type": "project",
+        "publication_date": "2024-07-01",
+        "description": "Efficient extension for Visual Studio Code allows for bulk creation of files and folders. Usable for AI copilots and chatbots.",
+        "image_url": "assets/2024_vscode_bulkcreate2.png",
+        "link1": "https://marketplace.visualstudio.com/items?itemName=ZingLab.vscode-bulkcreate",
+        "link2": "https://github.com/TheRedJalapeno/VSCode_BulkCreate"
+      },
+      {
+        "title": "HotGato Speed Reader",
+        "type": "project",
+        "publication_date": "2024-07-01",
+        "description": "JavaScript speed reading webapp that can be used offline for secure documents. Supports words per minute, chunk size, punctuation pauses, and 'bionic reading' mode.",
+        "image_url": "assets/2024_hotgato.png",
+        "link1": "https://hotgato.com",
+        "link2": "https://github.com/TheRedJalapeno/HotGato_SpeedReader"
+      },
+      {
+        "title": "oBalls Physics Game",
+        "type": "project",
+        "publication_date": "2023-09-01",
+        "description": "Physics engine game. Managing the audio system was a fun challenge with caching and volume scaling. My toddler loves it.",
+        "image_url": "assets/2023_oballs.png",
+        "link1": "https://oballs.com/",
+        "link2": "https://github.com/TheRedJalapeno/OBalls"
+      },
+      {
+        "title": "ADHD Quiz",
+        "type": "project",
+        "publication_date": "2024-07-01",
+        "description": "An uplifting personality quiz with random questions. The goal is to be positive and highlight historical neurodivergent figures.",
+        "image_url": "assets/2024_adhd_quiz.jpg",
+        "link1": "https://zinglab.com",
+        "link2": "https://github.com/TheRedJalapeno/ADHD_Quiz"
+      },
+      {
+        "title": "Click2Highlight",
+        "type": "project",
+        "publication_date": "2024-02-01",
+        "description": "A simple tool to double-click and highlight any text block on a page. Insert a span around selected text, and double-click to remove it.",
+        "image_url": "assets/2024_click2highlight.png",
+        "link1": null,
+        "link2": "https://github.com/TheRedJalapeno/Click2Highlight"
+      },
+      {
+        "title": "NoSpoilers Chrome Extension",
+        "type": "project",
+        "publication_date": "2023-05-01",
+        "description": "Chrome extension for hiding text blocks containing user-specified keywords. Grays out text to help avoid spoilers or unwanted information.",
+        "image_url": "assets/2023_nospoilers.png",
+        "link1": "https://chromewebstore.google.com/detail/nospoilers/lfeppohidgccmmihcmnpmohefpgnlfkl",
+        "link2": null
+      }
+    ]
+  }
+  
