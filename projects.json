@@ -81,7 +81,7 @@
         "type": "project",
         "publication_date": "2024-07-01",
         "description": "An uplifting personality quiz with random questions. The goal is to be positive and highlight historical neurodivergent figures.",
-        "image_url": "assets/2024_adhd_quiz.jpg",
+        "image_url": "assets/2024_adhd_quiz.png",
         "link1": "https://adhd.zinglab.com",
         "link2": "https://github.com/TheRedJalapeno/ADHD_Quiz"
       },
