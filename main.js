@@ -1,11 +1,15 @@
+let cachedData = null;  // Cache the JSON data
+
 document.addEventListener('DOMContentLoaded', () => {
-    // Fetch the JSON data on page load
+    // Fetch the JSON data once on page load
     fetch('/projects.json')
         .then(response => response.json())
         .then(data => {
+            cachedData = data;  // Store the data in cache
             // Initially load 'Books' section
-            loadContent('books', data);
-        });
+            loadContent('books');
+        })
+        .catch(error => console.error('Error loading JSON:', error));
 
     // Event Listeners for Navigation Buttons
     document.getElementById('booksButton').addEventListener('click', () => loadContent('books'));
@@ -15,35 +19,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Load content based on selected section
 function loadContent(type) {
-    fetch('/projects.json')
-        .then(response => response.json())
-        .then(data => {
-            const contentSection = document.getElementById('content-section');
-            contentSection.innerHTML = '';  // Clear previous content
+    if (!cachedData) {
+        console.error('No data available');
+        return;
+    }
 
-            // Filter data by type (book, website, project)
-            const filteredEntries = data.entries.filter(entry => {
-                if (type === 'books') return entry.type === 'book';
-                if (type === 'websites') return entry.type === 'website';
-                if (type === 'projects') return entry.type === 'project';
-            });
+    const contentSection = document.getElementById('content-section');
+    contentSection.innerHTML = '';  // Clear previous content
 
-            // Generate cards for each entry
-            filteredEntries.forEach(entry => {
-                const card = document.createElement('div');
-                card.classList.add('card');
-                card.innerHTML = `
-                    <img src="${entry.image_url}" alt="${entry.title}">
-                    <h3>${entry.title}</h3>
-                    <p>${entry.description}</p>
-                    ${entry.link1 ? `<a href="${entry.link1}" target="_blank">See more</a>` : ''}
-                    ${entry.link2 ? `<a href="${entry.link2}" target="_blank">GitHub</a>` : ''}
-                `;
+    // Filter data by type (book, website, project)
+    const filteredEntries = cachedData.entries.filter(entry => {
+        if (type === 'books') return entry.type === 'book';
+        if (type === 'websites') return entry.type === 'website';
+        if (type === 'projects') return entry.type === 'project';
+    });
 
-                // Append the card to the content section
-                contentSection.appendChild(card);
-            });
-        })
-        .catch(error => console.error('Error loading JSON:', error));
+    // Generate and append cards for each entry
+    filteredEntries.forEach(entry => {
+        const card = document.createElement('div');
+        card.classList.add('card');
+        card.innerHTML = `
+            <img src="${entry.image_url}" alt="${entry.title}" loading="lazy">
+            <h3>${entry.title}</h3>
+            <p>${entry.description}</p>
+            ${entry.link1 ? `<a href="${entry.link1}" target="_blank">See it live</a>` : ''}
+            ${entry.link2 ? `<a href="${entry.link2}" target="_blank">GitHub</a>` : ''}
+        `;
+
+        contentSection.appendChild(card);
+    });
 }
 
