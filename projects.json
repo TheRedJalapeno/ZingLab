@@ -4,7 +4,7 @@
         "title": "Kolnari Prologue",
         "type": "book",
         "series": "Written By Victors, Book 1",
-        "publication_date": "2024-06-01",
+        "publication_date": "2024-06-06",
         "description": "The Kolnari Empire has stood for hundreds of years, exploring and cultivating the galaxy. A small xeno-anthropological survey team finds themselves stranded in a deeply dangerous predicament. Will they be able to escape? Will the risks they take be worth it?",
         "image_url": "assets/2024_kolnari_prologue.jpg",
         "link1": "https://a.co/d/bULMHyd",
@@ -14,7 +14,7 @@
         "title": "Ochre Sky",
         "type": "book",
         "series": "Written By Victors, Book 2",
-        "publication_date": "2024-07-01",
+        "publication_date": "2024-07-06",
         "description": "Ochre Sky is an ultra-realistic near-future adventure following a group of friends and researchers on a Venus science station. Worldbuilding takes center stage before everything turns upside down. What will happen, floating over their beautiful ball of boiling acid?",
         "image_url": "assets/2024_ochre_sky.jpg",
         "link1": "https://a.co/d/hoq61BV",
@@ -24,10 +24,20 @@
         "title": "Bingo Belt Boys",
         "type": "book",
         "series": "Written By Victors, Book 3",
-        "publication_date": "2024-08-01",
+        "publication_date": "2024-08-06",
         "description": "Ananya just needed to break away from her overbearing parents and their incessant plan, but now she finds herself a middle manager on a backwater asteroid mining facility on the far side of the sun. Will she survive the psychological and visceral threats?",
         "image_url": "assets/2024_bingo_belt_boys.jpg",
         "link1": "https://a.co/d/cMwqszz",
+        "link2": null
+      },
+      {
+        "title": "Hemmer",
+        "type": "book",
+        "series": "Written By Victors, Book 4",
+        "publication_date": "2024-09-10",
+        "description": "Professor Dr JG Hemmer is a reclusive specialist in the area of genomics. His story is not his to tell. Dive into a thrilling near-future science fiction adventure through a dystopian vision so close to our world you might see your house from there. From Rotterdam to Wolfsburg Germany, through the Earth-bound Tyson Station all the way to Venus, we have a chance to integrate into a variety of cultures along the way. What is the core conflict between Earth and the Spacers? Who struck first and why? What kind of weapons do you use in a pressurized space ship? Will Jamie ever find a job? Hemmer is a fast-paced and funny scifi action adventure from acclaimed author Robert Willnow, clocking in as the fourth installment in the Written By Victors series.",
+        "image_url": "assets/2024_hemmer.jpg",
+        "link1": "https://a.co/d/e8v8Koz",
         "link2": null
       },
       {
@@ -42,11 +52,20 @@
       {
         "title": "HotGato Speed Reader",
         "type": "project",
-        "publication_date": "2024-07-01",
+        "publication_date": "2023-06-01",
         "description": "JavaScript speed reading webapp that can be used offline for secure documents. Supports words per minute, chunk size, punctuation pauses, and 'bionic reading' mode.",
         "image_url": "assets/2024_hotgato.png",
         "link1": "https://hotgato.com",
         "link2": "https://github.com/TheRedJalapeno/HotGato_SpeedReader"
+      },
+      {
+        "title": "HotGato Speed Reader Chrome Extension",
+        "type": "project",
+        "publication_date": "2024-07-01",
+        "description": "Speed reading extension right in your browser. Just select some text, right-click, and select HotGato Speed Read. Boom, the whole article will be loaded into the HotGato popup for you to zip through! Perfect for scanning long articles and reviewing documents.",
+        "image_url": "assets/2024_hotgato_extension.png",
+        "link1": "https://chromewebstore.google.com/detail/hotgato-speed-reader/ogecmlkfllamfilgdigmaifjcbmfhgib?",
+        "link2": "https://github.com/TheRedJalapeno/HotGato_Extension"
       },
       {
         "title": "oBalls Physics Game",
@@ -63,7 +82,7 @@
         "publication_date": "2024-07-01",
         "description": "An uplifting personality quiz with random questions. The goal is to be positive and highlight historical neurodivergent figures.",
         "image_url": "assets/2024_adhd_quiz.jpg",
-        "link1": "https://zinglab.com",
+        "link1": "https://adhd.zinglab.com",
         "link2": "https://github.com/TheRedJalapeno/ADHD_Quiz"
       },
       {
@@ -72,7 +91,7 @@
         "publication_date": "2024-02-01",
         "description": "A simple tool to double-click and highlight any text block on a page. Insert a span around selected text, and double-click to remove it.",
         "image_url": "assets/2024_click2highlight.png",
-        "link1": null,
+        "link1": "https://chromewebstore.google.com/detail/click2highlight/foodkjlhileaahiiodmagobkknanemcn?authuser=0&hl=en",
         "link2": "https://github.com/TheRedJalapeno/Click2Highlight"
       },
       {

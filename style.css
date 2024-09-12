@@ -146,6 +146,9 @@ main {
     color: #ff6f00;
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    text-decoration: underline;
+    margin-bottom: .5em;
 }
 
 .card:hover {
