@@ -51,7 +51,7 @@
       },
       {
         "title": "HotGato Speed Reader",
-        "type": "project",
+        "type": "website",
         "publication_date": "2023-06-01",
         "description": "JavaScript speed reading webapp that can be used offline for secure documents. Supports words per minute, chunk size, punctuation pauses, and 'bionic reading' mode.",
         "image_url": "assets/2024_hotgato.png",
@@ -69,7 +69,7 @@
       },
       {
         "title": "oBalls Physics Game",
-        "type": "project",
+        "type": "website",
         "publication_date": "2023-09-01",
         "description": "Physics engine game. Managing the audio system was a fun challenge with caching and volume scaling. My toddler loves it.",
         "image_url": "assets/2023_oballs.png",
@@ -78,7 +78,7 @@
       },
       {
         "title": "ADHD Quiz",
-        "type": "project",
+        "type": "website",
         "publication_date": "2024-07-01",
         "description": "An uplifting personality quiz with random questions. The goal is to be positive and highlight historical neurodivergent figures.",
         "image_url": "assets/2024_adhd_quiz.png",
@@ -101,6 +101,15 @@
         "description": "Chrome extension for hiding text blocks containing user-specified keywords. Grays out text to help avoid spoilers or unwanted information.",
         "image_url": "assets/2023_nospoilers.png",
         "link1": "https://chromewebstore.google.com/detail/nospoilers/lfeppohidgccmmihcmnpmohefpgnlfkl",
+        "link2": null
+      },
+      {
+        "title": "Robert Willnow Author Site",
+        "type": "website",
+        "publication_date": "2024-09-12",
+        "description": "Simple author website for Robert Willnow, acclaimed American science fiction author.",
+        "image_url": "assets/2024_robertwillnow.png",
+        "link1": "https://robertwillnow.com/",
         "link2": null
       }
     ]
