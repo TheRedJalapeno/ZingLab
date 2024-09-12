@@ -45,7 +45,7 @@
         "type": "project",
         "publication_date": "2024-07-01",
         "description": "Efficient extension for Visual Studio Code allows for bulk creation of files and folders. Usable for AI copilots and chatbots.",
-        "image_url": "assets/2024_vscode_bulkcreate2.jpg",
+        "image_url": "assets/2024_vscode_bulkcreate2.png",
         "link1": "https://marketplace.visualstudio.com/items?itemName=ZingLab.vscode-bulkcreate",
         "link2": "https://github.com/TheRedJalapeno/VSCode_BulkCreate"
       },
