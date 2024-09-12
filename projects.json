@@ -45,7 +45,7 @@
         "type": "project",
         "publication_date": "2024-07-01",
         "description": "Efficient extension for Visual Studio Code allows for bulk creation of files and folders. Usable for AI copilots and chatbots.",
-        "image_url": "assets/2024_vscode_bulkcreate2.png",
+        "image_url": "assets/2024_vscode_bulkcreate2.jpg",
         "link1": "https://marketplace.visualstudio.com/items?itemName=ZingLab.vscode-bulkcreate",
         "link2": "https://github.com/TheRedJalapeno/VSCode_BulkCreate"
       },
@@ -63,7 +63,7 @@
         "type": "project",
         "publication_date": "2024-07-01",
         "description": "Speed reading extension right in your browser. Just select some text, right-click, and select HotGato Speed Read. Boom, the whole article will be loaded into the HotGato popup for you to zip through! Perfect for scanning long articles and reviewing documents.",
-        "image_url": "assets/2024_hotgato_extension.png",
+        "image_url": "assets/2024_hotgato_extension.jpg",
         "link1": "https://chromewebstore.google.com/detail/hotgato-speed-reader/ogecmlkfllamfilgdigmaifjcbmfhgib?",
         "link2": "https://github.com/TheRedJalapeno/HotGato_Extension"
       },
@@ -72,7 +72,7 @@
         "type": "website",
         "publication_date": "2023-09-01",
         "description": "Physics engine game. Managing the audio system was a fun challenge with caching and volume scaling. My toddler loves it.",
-        "image_url": "assets/2023_oballs.png",
+        "image_url": "assets/2023_oballs.jpg",
         "link1": "https://oballs.com/",
         "link2": "https://github.com/TheRedJalapeno/OBalls"
       },
@@ -81,7 +81,7 @@
         "type": "website",
         "publication_date": "2024-07-01",
         "description": "An uplifting personality quiz with random questions. The goal is to be positive and highlight historical neurodivergent figures.",
-        "image_url": "assets/2024_adhd_quiz.png",
+        "image_url": "assets/2024_adhd_quiz.jpg",
         "link1": "https://adhd.zinglab.com",
         "link2": "https://github.com/TheRedJalapeno/ADHD_Quiz"
       },
@@ -90,7 +90,7 @@
         "type": "project",
         "publication_date": "2024-02-01",
         "description": "A simple tool to double-click and highlight any text block on a page. Insert a span around selected text, and double-click to remove it.",
-        "image_url": "assets/2024_click2highlight.png",
+        "image_url": "assets/2024_click2highlight.jpg",
         "link1": "https://chromewebstore.google.com/detail/click2highlight/foodkjlhileaahiiodmagobkknanemcn?authuser=0&hl=en",
         "link2": "https://github.com/TheRedJalapeno/Click2Highlight"
       },
@@ -108,7 +108,7 @@
         "type": "website",
         "publication_date": "2024-09-12",
         "description": "Simple author website for Robert Willnow, acclaimed American science fiction author.",
-        "image_url": "assets/2024_robertwillnow.png",
+        "image_url": "assets/2024_robertwillnow.jpg",
         "link1": "https://robertwillnow.com/",
         "link2": null
       }
