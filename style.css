@@ -31,6 +31,12 @@ h2 {
     "EHLT" 12;
 }
 
+h3 {
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 em {
   font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
