@@ -41,6 +41,14 @@ h3 {
     font-style: normal;
 }
 
+ul, ol, li {
+    color: #666;
+}
+ul{
+    color: #666;
+    padding-left: 0.7em;
+}
+
 em {
   font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
@@ -51,8 +59,13 @@ em {
     "EHLT" 12;
 }
 
+i {
+    font-style: italic;
+}
 
-
+.block {
+    display: block !important;
+}
 
 /* Header */
 header {
@@ -159,7 +172,7 @@ main {
     text-decoration: underline;
     margin-bottom: .5em;
     padding: 0 5px;
-    width: 40%;
+    margin: 0 10%;
 }
 
 a.homeLink {
@@ -239,3 +252,27 @@ form button:hover {
     background-color: #cc5600;
 }
 
+/* Blog styles */
+blockquote {
+    border-left: 4px solid #ff6f00;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    background-color: #f7f7f7;
+    color: slategray;
+}
+
+div.blog {
+    max-width: 1100px;
+    text-align: left;
+}
+div.blog:hover {
+    transform: none;
+}
+
+div.metadata {
+    font-size: 0.8em;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: .5em;
+}
