@@ -44,6 +44,12 @@ h2 {
     "EDPT" 100,
     "EHLT" 12;
 }
+/* Media Query to swap font on iOS */
+@supports (-webkit-touch-callout: none) {
+    h2 {
+      font-family: 'Reem Kufi Ink', Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  }
 
 h3 {
     font-family: "Reem Kufi Ink", sans-serif;
