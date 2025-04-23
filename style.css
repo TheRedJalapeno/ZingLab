@@ -26,13 +26,10 @@ a h1 {
 }
 
 h2 {
-  font-family: "Nabla", system-ui;
+  font-family: "Nabla", "Reem Kufi Ink", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
   margin-bottom: 20px;
   font-size: 2em;
 }
@@ -46,7 +43,7 @@ h3 {
 ul, ol, li {
     color: #666;
 }
-ul{
+ul {
     color: #666;
     padding-left: 0.7em;
 }
@@ -267,6 +264,7 @@ section.blog a {
     color: #333;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Blog styles */
