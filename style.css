@@ -188,7 +188,7 @@ a.inlineLink {
 .card {
     background-color: #f7f7f7;
     border: 1px solid #ccc;
-    margin: 20px;
+    margin: 1%;
     padding: 20px;
     max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -211,13 +211,17 @@ a.inlineLink {
     margin: 10px 0;
 }
 
-.card a {
+.card a.cardlink {
     color: #ff6f00;
     font-weight: bold;
     display: inline-block;
     text-decoration: underline;
     padding: 10px;
     margin: 0 10%;
+}
+
+.card a {
+    text-decoration: underline;
 }
 
 .card:hover {
