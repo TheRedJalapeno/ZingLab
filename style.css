@@ -294,6 +294,29 @@ section.contact h2 {
     font-size: 2em;
 }
 
+div.mailchimp {
+    color:#333;
+    padding-bottom: 20px;
+    text-align: center;
+}
+div#mc_embed_shell {
+    background: #fff;
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+    max-width: 300px;
+    display: inline-block;
+    margin: 10px;
+    color: #666;
+}
+.indicates-required {
+    display: none;
+}
+.mc-header {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 /* Blog Section */
 section.blog {
     background-color: antiquewhite;
