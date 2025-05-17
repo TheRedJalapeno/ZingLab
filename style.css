@@ -116,9 +116,10 @@ header {
 
 header h1 {
     color: #fff;
-    font-size: 2.5em;
     text-transform: uppercase;
     letter-spacing: 5px;
+    max-width: 600px;
+    margin: auto;
 }
 
 /* Navigation */
