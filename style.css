@@ -4,6 +4,8 @@
         color: orange;
     }
 }
+/* Font Imports */
+/* Nunito, Inter, Roboto, Nable */
 
 /* Basic Styles */
 * {
@@ -24,7 +26,7 @@ body {
 }
 
 h1 {
-    font-family: "Reem Kufi Ink", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -34,7 +36,7 @@ a h1 {
 }
 
 h2 {
-    font-family: "Nabla", "Reem Kufi Ink", sans-serif;
+    font-family: "Nabla", "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -49,12 +51,12 @@ h2 {
 /* Media Query to swap font on iOS */
 @supports (-webkit-touch-callout: none) {
     h2 {
-        font-family: 'Reem Kufi Ink', Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: "Nunito", "Roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 }
 
 h3 {
-    font-family: "Reem Kufi Ink", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
