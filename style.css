@@ -128,16 +128,17 @@ nav ul {
     margin-top: 15px;
     display: flex;
     justify-content: center;
+    flex-flow: wrap;
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 10px 10px 10px;
 }
 
 nav button {
     background-color: #fff;
-    border: 2px solid #ff6f00;
-    padding: 0.8em;
+    border: 0;
+    padding: 0;
     font-size: 1em;
     color: #ff6f00;
     cursor: pointer;
@@ -145,6 +146,7 @@ nav button {
     height: 90px;
     width: 100px;
     margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav button:hover {
@@ -267,7 +269,7 @@ footer {
     background-color: #ff6f00;
     color: ivory;
     text-align: center;
-    padding: 10px 0 0;
+    padding: 0;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -280,6 +282,14 @@ footer a {
 
 footer p {
     margin: 10px;
+}
+
+/* Copyright Section */
+section.copyright {
+    color: ivory;
+    background-color: var(#ff6f00);
+    padding: 20px;
+    text-align: center;
 }
 
 /* Contact Section */
@@ -332,11 +342,10 @@ section.blog a {
     max-width: 130px;
     background-color: orange;
     color: #333;
-    border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-weight: bold;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 /* Blog styles */
