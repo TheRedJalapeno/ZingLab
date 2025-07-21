@@ -61,6 +61,14 @@ h3 {
     font-style: normal;
 }
 
+h4 {
+    font-family: "Nunito", sans-serif;
+    border-top: 1px solid gray;
+    color: rgba(0,0,0,.6);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
 ul,
 ol,
 li {
