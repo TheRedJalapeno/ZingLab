@@ -48,6 +48,14 @@ h2 {
         "EHLT" 12;
 }
 
+p {
+    display: flex;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
 /* Media Query to swap font on iOS */
 @supports (-webkit-touch-callout: none) {
     h2 {
