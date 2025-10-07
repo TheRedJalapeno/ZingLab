@@ -276,6 +276,7 @@ a.inlineLink {
     color: #666;
     font-size: 1em;
     margin: 10px 0;
+    display: flex;
 }
 
 .textblock a {
