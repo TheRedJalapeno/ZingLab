@@ -186,6 +186,15 @@ nav button:active::before {
     /* Flask icon wiggle effect */
 }
 
+/* Icons */
+img.icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+    box-shadow: none;
+}
+
 /* Main Content */
 main {
     text-align: center;
@@ -299,6 +308,8 @@ footer a {
 
 footer p {
     margin: 10px;
+    text-align: center;
+    display: block;
 }
 
 /* Copyright Section */
