@@ -36,7 +36,7 @@ a h1 {
 }
 
 h2 {
-    font-family: "Nabla", "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -101,7 +101,7 @@ hyper {
 }
 
 .fancy {
-    font-family: "Nabla", system-ui;
+    font-family: "Nunito", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
