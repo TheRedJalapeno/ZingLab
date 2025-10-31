@@ -1,0 +1,28 @@
+---
+title: "ZingLab Blog"
+description: "Articles and essays by Robert Allen"
+keywords: "ZingLab, blog, Robert Allen, essays"
+layout: default
+permalink: /blog/
+---
+
+<section id="content-section">
+  <div class="card">
+    <h1>Blog</h1>
+    <p>Latest posts and essays by Robert Allen.</p>
+  </div>
+
+  <div class="blog-list">
+    {% for post in site.posts %}
+      <article class="card blog">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="metadata">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          {% if post.author %} — {{ post.author }}{% endif %}
+        </div>
+        <p>{{ post.excerpt | strip_html | truncate: 240 }}</p>
+        <a class="cardlink" href="{{ post.url | relative_url }}">Read</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
