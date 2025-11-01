@@ -356,6 +356,24 @@ div#mc_embed_shell {
 }
 
 /* Blog Section */
+.blog-list {
+  display: flex;
+  padding: 2em 0;
+  justify-content: center;
+  flex-flow: wrap;
+}
+article.blog h3 a {
+    text-decoration: none;
+    color: chocolate;
+}
+article.blog div.metadata {
+    margin-top: 5px;
+}
+article.blog p {
+    text-align: left;
+}
+
+/* Pages with posts and Projects */
 section.blog {
     background-color: antiquewhite;
     color: #333;
