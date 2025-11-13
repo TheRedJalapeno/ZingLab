@@ -10,6 +10,4 @@ githublink: "https://github.com/TheRedJalapeno/Visual-Acuity-Response-Time"
 image: "/assets/2025_vart.png"
 ---
 
-## Dementia Test (VART)
-
 Based on breaking research, our visual acuity and reaction time test can give a rough estimate of your risk.

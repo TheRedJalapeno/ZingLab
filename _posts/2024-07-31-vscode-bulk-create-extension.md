@@ -10,6 +10,4 @@ githublink: "https://github.com/TheRedJalapeno/VSCode_BulkCreate"
 image: "/assets/2024_vscode_bulkcreate2.png"
 ---
 
-## VS Code Bulk Create Extension
-
 Efficient extension for Visual Studio Code allows for bulk creation of files and folders. Usable for AI copilots and chatbots.

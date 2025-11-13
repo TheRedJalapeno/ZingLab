@@ -2,7 +2,7 @@
 layout: post
 title: "Click2Highlight"
 type: projects
-description: "A simple tool to double-click and highlight any text block on a page. Insert a span around selected text, and double-click to remove it."
+description: "A simple tool to double-click and highlight any text block on a page and double-click again to remove it."
 keywords: "highlight, text marking, Chrome extension, productivity, annotation"
 permalink: "/projects/click2highlight"
 livelink: "https://chromewebstore.google.com/detail/click2highlight/foodkjlhileaahiiodmagobkknanemcn?authuser=0&amp;hl=en"
@@ -10,6 +10,4 @@ githublink: "https://github.com/TheRedJalapeno/Click2Highlight"
 image: "/assets/2024_click2highlight.jpg"
 ---
 
-## Click2Highlight
-
-A simple tool to double-click and highlight any text block on a page. Insert a span around selected text, and double-click to remove it.
+A simple tool to double-click and highlight any text block on a page and double-click again to remove it. Highlight as much as you want, and screenshot for studying.

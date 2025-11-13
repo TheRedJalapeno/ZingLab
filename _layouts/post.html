@@ -18,11 +18,13 @@ layout: default
   </header>
 
   <div class="post-content">
+    {% if page.image and page.image != "" %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-image" loading="lazy">
+    {% endif %}
     {{ content }}
   </div>
 
   {% if page.livelink or page.githublink %}
-    <footer class="post-footer">
       <div class="post-links">
         {% if page.livelink and page.livelink != "" %}
           <a class="post-link" href="{{ page.livelink }}" target="_blank">View Live</a>
@@ -31,7 +33,6 @@ layout: default
           <a class="post-link" href="{{ page.githublink }}" target="_blank">GitHub Repository</a>
         {% endif %}
       </div>
-    </footer>
   {% endif %}
 </article>
 
@@ -51,7 +52,7 @@ layout: default
 
   .post-title {
     font-size: 2.5rem;
-    margin: 0 0 1rem 0;
+    margin: 0 auto 1rem;
     line-height: 1.2;
     color: #666;
   }
@@ -74,6 +75,7 @@ layout: default
     font-size: 1.1rem;
     line-height: 1.8;
     margin: 2rem 0;
+    text-align: left;
   }
 
   .post-content h2 {
@@ -89,6 +91,7 @@ layout: default
 
   .post-content p {
     margin: 1rem 0;
+    min-width: 250px;
   }
 
   .post-content ul,
@@ -110,15 +113,9 @@ layout: default
     font-style: italic;
   }
 
-  .post-footer {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid #e0e0e0;
-  }
-
   .post-links {
     display: flex;
-    gap: 1rem;
+    gap: 1rem 3rem;
     flex-wrap: wrap;
   }
 
@@ -131,10 +128,20 @@ layout: default
     border-radius: 4px;
     font-weight: 500;
     transition: background-color 0.2s;
+    flex-grow: 2;
   }
 
   .post-link:hover {
     background-color: #0056b3;
+  }
+
+  .post-image {
+    max-width: 300px;
+    min-width: 200px;
+    width: 30%;
+    margin: 0 25px 25px 0;
+    float: left;
+    filter: drop-shadow(2px 2px 2px #333);
   }
 
   @media (max-width: 600px) {

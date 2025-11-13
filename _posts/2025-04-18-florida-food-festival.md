@@ -10,6 +10,4 @@ githublink: "https://github.com/ZingLab/z_FloridaFoodFestival"
 image: "/assets/2025_floridafoodfestival.png"
 ---
 
-## Florida Food Festival
-
 A WIP directory of Florida events, food festivals, and fun.

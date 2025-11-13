@@ -10,6 +10,4 @@ githublink: "https://github.com/TheRedJalapeno/z_TexasComicon"
 image: "/assets/2025_texascomicon.png"
 ---
 
-## Texas Comicon Directory
-
 A straightforward directory of conventions and events in the great state of Texas.
