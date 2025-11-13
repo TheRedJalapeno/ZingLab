@@ -35,5 +35,3 @@ Development notes
 Player tips
 - In the shooter mode, use momentum to your advantage—shooting while moving produces different rebound patterns that can clear clustered enemies.
 - For best audio fidelity, play on a device with hardware acceleration enabled; the audio demo scales back opportunistically when performance is restricted.
-
-Want screenshots, a short gameplay GIF, or brief implementation notes added to this post? I can generate or add those for clarity and to show the audio system in action.

@@ -4,7 +4,7 @@ title: "Origin of Language"
 type: blog
 description: "An exploration of focal emotional language and how it forms the basis of all communication."
 keywords: "language, origin, communication, focal emotional language, animals"
-permalink: /blog/focal-emotional-language2/
+permalink: /blog/focal-emotional-language/
 image: "/assets/2025_focal_language.png"
 date: 2018-05-05
 author: "Robert Allen"
