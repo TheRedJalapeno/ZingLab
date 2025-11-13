@@ -6,6 +6,7 @@
         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
         <h3>{{ post.title }}</h3>
         <p>{{ post.description }}</p>
+        <a class="cardlink" href="{{ post.url | relative_url }}">Read more</a>
         {%- if post.livelink and post.livelink != "" -%}
           <a class="cardlink" href="{{ post.livelink }}" target="_blank">See it live</a>
         {%- endif -%}

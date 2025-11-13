@@ -2,12 +2,12 @@
 layout: default
 title: "HotGato Speed Reader"
 type: website
-description: "The most advanced speed reading app on the market. HotGato is free and open source for personal use, with corporate licenses available. Can be used offline for secure documents."
-keywords: "speed reading, reading app, productivity, education, open source"
-url: "https://zinglab.com/hotgato"
+description: "The most advanced speed reading app on the market. Free and open source for personal use with corporate licenses available."
+keywords: "speed reading, HotGato, reading app, bionic reading, WPM"
+permalink: "/website/hotgato-speed-reader"
 livelink: "https://hotgato.com"
 githublink: "https://github.com/TheRedJalapeno/HotGato_SpeedReader"
-image: "/assets/2024_hotgato.png"
+image: "/assets/2024_adhd_quiz.jpg"
 ---
 
 ## HotGato Speed Reader
