@@ -7,7 +7,7 @@ url: "/physics-education/"
 image: "/assets/index.jpg"
 date: 2025-05-12 19:21:00 
 author: "Robert Allen"
-permalink: /physics-education/
+permalink: /blog/physics-education/
 categories: education
 type: blog
 ---

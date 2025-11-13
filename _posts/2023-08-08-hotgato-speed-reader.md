@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: post
 title: "HotGato Speed Reader"
 type: website
 description: "The most advanced speed reading app on the market. Free and open source for personal use with corporate licenses available."
 keywords: "speed reading, HotGato, reading app, bionic reading, WPM"
-permalink: "/website/hotgato-speed-reader"
+permalink: "/websites/hotgato-speed-reader"
 livelink: "https://hotgato.com"
 githublink: "https://github.com/TheRedJalapeno/HotGato_SpeedReader"
-image: "/assets/2024_adhd_quiz.jpg"
+image: "/assets/2024_hotgato.png"
 ---
 
 ## HotGato Speed Reader
