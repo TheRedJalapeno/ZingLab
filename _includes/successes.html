@@ -1,6 +1,6 @@
 <section id="blog" class="blog">
-    <h1>Blog</h1>
-    {%- assign blogposts = site.posts | where: "type", "blog" | sort: "date" | reverse -%}
+    <h1>Success Stories</h1>
+    {%- assign blogposts = site.posts | where: "type", "success" | sort: "date" | reverse -%}
     {%- if blogposts and blogposts.size > 0 -%}
         {%- for post in blogposts -%}
             <a class="bloglink" href="{{ post.url | relative_url }}">{{ post.title }}</a>

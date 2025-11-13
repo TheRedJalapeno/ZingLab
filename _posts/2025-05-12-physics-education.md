@@ -9,6 +9,7 @@ date: 2025-05-12 19:21:00
 author: "Robert Allen"
 permalink: /physics-education/
 categories: education
+type: blog
 ---
 
 # Albert Einstein would not have succeeded in a modern physics program.
