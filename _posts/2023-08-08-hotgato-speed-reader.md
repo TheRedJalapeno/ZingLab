@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HotGato Speed Reader"
-type: website
+type: websites
 description: "The most advanced speed reading app on the market. Free and open source for personal use with corporate licenses available."
 keywords: "speed reading, HotGato, reading app, bionic reading, WPM"
 permalink: "/websites/hotgato-speed-reader"

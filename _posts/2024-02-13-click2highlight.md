@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Click2Highlight"
-type: project
+type: projects
 description: "A simple tool to double-click and highlight any text block on a page. Insert a span around selected text, and double-click to remove it."
 keywords: "highlight, text marking, Chrome extension, productivity, annotation"
 permalink: "/projects/click2highlight"

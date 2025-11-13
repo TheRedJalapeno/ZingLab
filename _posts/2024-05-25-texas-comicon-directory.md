@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Texas Comicon Directory"
-type: website
+type: websites
 description: "A straightforward directory of conventions and events in the great state of Texas."
 keywords: "Texas, conventions, comic cons, events directory"
 permalink: "/websites/texascomicon"

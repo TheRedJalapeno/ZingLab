@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Physics Education: Shortcomings in Modern Higher Education"
+type: blog
 description: "Physics education is fundamentally flawed"
 keywords: "Robert Allen, Blog, language, origin"
 url: "/physics-education/"
-image: "/assets/index.jpg"
+image: "/assets/zinglab.png"
 date: 2025-05-12 19:21:00 
 author: "Robert Allen"
 permalink: /blog/physics-education/
 categories: education
-type: blog
 ---
 
 # Albert Einstein would not have succeeded in a modern physics program.

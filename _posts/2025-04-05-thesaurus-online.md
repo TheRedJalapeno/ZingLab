@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TheSaurus Online"
-type: website
+type: websites
 description: "The world's best and only dinosaur themed thesaurus. Free and open source, of course."
 keywords: "thesaurus, dinosaur, words, synonyms, open source"
 permalink: "/websites/thesaurus"

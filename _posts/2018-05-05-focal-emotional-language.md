@@ -26,14 +26,15 @@ Simple language is easy.
 
 As for humans, nobody knows. Odds are our earliest language existed long before anything resembling humanity existed.
 
----
-
-## About the Author
-
-{% include about_robert.html %}
 
 ---
 
 *Originally written for Quora in 2018:*
 - [Mom is the first word ever uttered by a human](https://www.quora.com/Mom-is-the-first-word-ever-uttered-by-a-human-long-long-ago-What-is-the-second-word-of-humanity/answer/Robert-D-Allen-MBA)
 - [Do animals like us?](https://www.quora.com/Do-animals-like-us/answer/Robert-D-Allen-MBA)
+
+---
+
+## About the Author
+
+{% include about_robert.html %}

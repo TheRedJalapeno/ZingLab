@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dementia Test (VART)"
-type: website
+type: websites
 description: "Based on breaking research, our visual acuity and reaction time test can give a rough estimate of your risk."
 keywords: "dementia, visual acuity, reaction time, health assessment"
 permalink: "/websites/vart"

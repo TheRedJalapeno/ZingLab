@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AiryChat AI"
-type: website
+type: websites
 description: "Custom AI solutions for businesses. White-label solutions available."
 keywords: "AI, chat, white-label, business solutions, AiryChat"
 permalink: "/websites/airychat-ai"

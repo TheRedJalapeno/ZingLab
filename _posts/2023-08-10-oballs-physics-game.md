@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "oBalls Physics Game"
-type: website
+type: websites
 description: "Simple physics games, one Space Invaders clone, one with a complex audio management system with caching and volume scaling."
 keywords: "game, physics, Space Invaders, audio, interactive"
 permalink: "/websites/oballs-physics-game"

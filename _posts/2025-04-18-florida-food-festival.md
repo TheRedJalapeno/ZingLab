@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Florida Food Festival"
-type: website
+type: websites
 description: "A WIP directory of Florida events, food festivals, and fun."
 keywords: "Florida, food festivals, events, directory"
 permalink: "/websites/floridafood"

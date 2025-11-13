@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HotGato Speed Reader — Chrome Extension"
-type: project
+type: projects
 description: "Speed reading extension right in your browser. Just select some text, right-click, and select HotGato Speed Read. Perfect for scanning long articles and reviewing documents."
 keywords: "speed reading, Chrome extension, HotGato, productivity, reading tool"
 permalink: "/projects/hotgato-extension"

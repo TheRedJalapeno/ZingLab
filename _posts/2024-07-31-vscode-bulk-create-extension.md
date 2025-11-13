@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VS Code Bulk Create Extension"
-type: project
+type: projects
 description: "Efficient extension for Visual Studio Code allows for bulk creation of files and folders. Usable for AI copilots and chatbots."
 keywords: "VS Code, extension, bulk create, files, folders, automation, AI"
 permalink: "/projects/vscode-bulk-create"
