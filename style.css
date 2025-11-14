@@ -249,7 +249,7 @@ a.inlineLink {
     margin: 10px 0;
 }
 
-.card a.cardlink {
+.card a.toplink {
     color: #ff6f00;
     font-weight: bold;
     display: inline-block;
@@ -257,6 +257,16 @@ a.inlineLink {
     padding: 10px;
     margin: 0 10%;
     height: 250px;
+    overflow: hidden;
+}
+
+.card a.cardlink {
+    color: #ff6f00;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 0 10%;
     overflow: hidden;
 }
 

@@ -3,7 +3,7 @@
   {%- if items and items.size > 0 -%}
     {%- for post in items -%}
       <div class="card">
-        <a class="cardlink" href="{{ post.url | relative_url }}">
+        <a class="toplink" href="{{ post.url | relative_url }}">
           <h3>{{ post.title }}</h3>  
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
         </a>
