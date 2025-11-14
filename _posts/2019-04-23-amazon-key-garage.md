@@ -14,7 +14,7 @@ permalink: /portfolio/amazon-key-for-garage/
 
 Our Key for Garage launch was set to go live on April 23rd. I had no metrics for which placements performed best or what a usual campaign consisted of in the context of our team, so I went big. We had 16 individual placements including two of the main Amazon.com sliders (not concurrently), the Prime Flyout shown below, multiple Gateway Cards and Billboards, banners on several Prime pages, we were the featured story in the Prime Newsletter (above Taylor Swift!), were featured in a couple other emails, and more.
 
-This campaign was seen by  **over 100 hundred million users.**
+This campaign was seen by over 100 hundred million users.
 
 
 <div class="post-links">
@@ -22,7 +22,16 @@ This campaign was seen by  **over 100 hundred million users.**
 <img src="/assets/portfolio/amazon-key-garage-h5-1.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image"  data-caption="Amazon Key for Garage screenshot showing amazon.com homepage">
 <img src="/assets/portfolio/amazon-key-garage-h5-2.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image" data-caption="Amazon Key for Garage screenshot showing amazon.com homepage">
 <img src="/assets/portfolio/amazon-key-garage-prime-flyout.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image" data-caption="Amazon Key for Garage screenshot showing amazon.com homepage">
+<img src="/assets/portfolio/amazon-key-garage-homesec-hero.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image" data-caption="Amazon Key for Garage screenshot showing amazon.com homepage">
 </div>
+
+<div class="post-links">
+<img src="/assets/portfolio/amazon-key-garage-prime-newsletter.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image-tall" data-caption="Amazon Key for Garage Prime Newsletter">
+<img src="/assets/portfolio/amazon-key-garage-gateway-catcard.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image-tall"  data-caption="Amazon Key for Garage screenshot showing amazon.com homepage">
+<img src="/assets/portfolio/amazon-key-garage-lp.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image-tall" data-caption="Amazon Key for Garage screenshot showing amazon.com homepage">
+<img src="/assets/portfolio/amazon-key-garage-email.jpg" alt="Amazon Key for Garage screenshot showing amazon.com homepage" class="post-image-tall" data-caption="Amazon Key for Garage screenshot showing amazon.com homepage">
+</div>
+
 
 We had a successful launch day with Key for Garage being the #1 best selling line of business for Amazon Key. The campaign was a success and I was proud to have led it.
 
