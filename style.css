@@ -256,6 +256,8 @@ a.inlineLink {
     text-decoration: underline;
     padding: 10px;
     margin: 0 10%;
+    height: 250px;
+    overflow: hidden;
 }
 
 .card a {

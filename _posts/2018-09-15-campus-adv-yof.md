@@ -2,10 +2,10 @@
 layout: post
 title: "Campus Advantage Year of Free Campaign"
 type: portfolio
-description: ""
+description: "B2C email marketing campaign sent to 200,000 renters to renew early."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-year-of-free-1.jpg"
-date: 2018-10-15
+date: 2018-09-15
 author: "Robert Allen"
 permalink: /portfolio/campus-adv-yof/
 ---

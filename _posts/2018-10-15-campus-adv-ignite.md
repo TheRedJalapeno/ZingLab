@@ -2,7 +2,7 @@
 layout: post
 title: "Campus Advantage Ignite Campaign"
 type: portfolio
-description: ""
+description: "Robust email marketing program aimed at students and young professionals."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-ignite-your-brand-email-1.jpg"
 date: 2018-10-15
