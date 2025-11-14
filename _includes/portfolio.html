@@ -1,0 +1,22 @@
+<section id="content-section">
+  {%- assign items = site.posts | where: "type", "portfolio" | sort: "date" | reverse -%}
+  {%- if items and items.size > 0 -%}
+    {%- for post in items -%}
+      <div class="card">
+        <a class="cardlink" href="{{ post.url | relative_url }}">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+            <h3>{{ post.title }}</h3>
+        </a>
+        <p>{{ post.description }}</p>
+        {%- if post.livelink and post.livelink != "" -%}
+          <a class="cardlink" href="{{ post.livelink }}" target="_blank">See it live</a>
+        {%- endif -%}
+        {%- if post.githublink and post.githublink != "" -%}
+          <a class="cardlink" href="{{ post.githublink }}" target="_blank">GitHub</a>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  {%- else -%}
+    <p>No websites found.</p>
+  {%- endif -%}
+</section>
