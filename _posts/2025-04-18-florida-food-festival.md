@@ -7,7 +7,7 @@ keywords: "Florida, food festivals, events, directory"
 permalink: "/websites/floridafood"
 livelink: "https://floridafoodfestival.com/"
 githublink: "https://github.com/ZingLab/z_FloridaFoodFestival"
-image: "/assets/2025_floridafoodfestival.png"
+image: "/assets/2025_floridafoodfestival.webp"
 ---
 
 A WIP directory of Florida events, food festivals, and fun.
