@@ -17,11 +17,12 @@ Our Key for Garage launch was set to go live on April 23rd. I had no metrics for
 This campaign was seen by **over 100 hundred million users.**
 
 
-![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/amazon-key-garage-good-morning-america.jpg){: .post-image data-caption="Amazon Key for Garage on Good Morning America"}
-![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/amazon-key-garage-h5-1.jpg){: .post-image data-caption="Amazon Key for Garage screenshot showing amazon.com homepage"}
-![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/amazon-key-garage-h5-2.jpg){: .post-image data-caption="Amazon Key for Garage screenshot showing amazon.com homepage"}
-![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/amazon-key-garage-prime-flyout.jpg){: .post-image data-caption="Amazon Key for Garage screenshot showing amazon.com homepage"}
-
+<div class="post-links">
+![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/portfolio/amazon-key-garage-good-morning-america.jpg){: .post-image data-caption="Amazon Key for Garage on Good Morning America"}
+![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/portfolio/amazon-key-garage-h5-1.jpg){: .post-image data-caption="Amazon Key for Garage screenshot showing amazon.com homepage"}
+![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/portfolio/amazon-key-garage-h5-2.jpg){: .post-image data-caption="Amazon Key for Garage screenshot showing amazon.com homepage"}
+![Amazon Key for Garage screenshot showing amazon.com homepage](/assets/portfolio/amazon-key-garage-prime-flyout.jpg){: .post-image data-caption="Amazon Key for Garage screenshot showing amazon.com homepage"}
+</div>
 
 We had a successful launch day with Key for Garage being the #1 best selling line of business for Amazon Key. The campaign was a success and I was proud to have led it.
 
