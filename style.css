@@ -81,11 +81,15 @@ ul,
 ol,
 li {
     color: #666;
+    padding-bottom: 5px;
 }
 
 ul {
     color: #666;
     padding-left: 0.7em;
+    list-style-type: '⚡';
+    display: table;
+    min-width: 350px;
 }
 
 em {
