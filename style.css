@@ -160,6 +160,7 @@ nav ul {
 
 nav ul li {
     margin: 0 10px 10px 10px;
+    list-style-type: none;
 }
 
 nav button {
