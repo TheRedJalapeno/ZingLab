@@ -92,6 +92,10 @@ ul {
     min-width: 350px;
 }
 
+ul li {
+    list-style-type: '⚡';
+}
+
 em {
     font-style: italic;
 }
