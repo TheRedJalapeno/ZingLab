@@ -156,6 +156,7 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-flow: wrap;
+    padding: 0;
 }
 
 nav ul li {
