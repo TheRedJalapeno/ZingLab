@@ -48,14 +48,6 @@ h2 {
         "EHLT" 12;
 }
 
-p {
-    display: flex;
-}
-
-strong {
-    font-weight: 700;
-}
-
 /* Media Query to swap font on iOS */
 @supports (-webkit-touch-callout: none) {
     h2 {
@@ -72,9 +64,18 @@ h3 {
 h4 {
     font-family: "Nunito", sans-serif;
     border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
     color: rgba(0,0,0,.6);
     font-size: 1.2em;
     font-weight: 500;
+}
+
+p {
+    display: flex;
+}
+
+strong {
+    font-weight: 700;
 }
 
 ul,
