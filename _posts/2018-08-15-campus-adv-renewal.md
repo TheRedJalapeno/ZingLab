@@ -7,7 +7,7 @@ keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-renewal-2019-landing-page.jpg"
 date: 2018-08-15
 author: "Robert Allen"
-permalink: /portfolio/campus-adv-yof/
+permalink: /portfolio/campus-renewal/
 ---
 
 

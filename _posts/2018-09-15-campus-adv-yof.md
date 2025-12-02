@@ -16,7 +16,7 @@ The Year of Free campaign reached over 200,000 recipients, lasted five months, a
 
 <div class="post-links">
 <img src="/assets/portfolio/ca-year-of-free-1.jpg" alt="Campus Advantage Year of Free Campaign for over 100 client properties" class="post-image-tall">
-<img src="/assets/portfolio/ca-year-of-free-4.jpg" alt="Campus Advantage Year of Free Campaign for over 100 client properties" class="post-image-tall">
+<img src="/assets/portfolio/ca-year-of-free-3.jpg" alt="Campus Advantage Year of Free Campaign for over 100 client properties" class="post-image-tall">
 <img src="/assets/portfolio/ca-year-of-free-5.jpg" alt="Campus Advantage Year of Free Campaign for over 100 client properties" class="post-image-tall">
 <img src="/assets/portfolio/ca-year-of-free-7.jpg" alt="Campus Advantage Year of Free Campaign for over 100 client properties" class="post-image-tall">
 </div>
