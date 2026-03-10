@@ -5,3 +5,5 @@ _site
 vendor
 *.code-workspace
 .DS_Store
+assets/.DS_Store
+.DS_Store
