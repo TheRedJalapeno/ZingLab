@@ -112,7 +112,7 @@ hyper {
     max-width: 800px;
 }
 
-jobsummary {
+summary {
     cursor: pointer;
     width: fit-content;
     padding: 5px 0;
