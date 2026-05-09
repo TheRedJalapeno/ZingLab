@@ -126,6 +126,15 @@ hyper {
         "EHLT" 12;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+.careerdetails {
+  text-indent: 1em;
+  line-height: 1em;
+}
+
 span.emphasis {
     padding: 10px 30px;
     display: block;
@@ -372,6 +381,11 @@ footer p {
     margin: 10px;
     text-align: center;
     display: block;
+}
+
+/* Hiring Section */
+section.hiring {
+    background-color: firebrick;
 }
 
 /* Copyright Section */
