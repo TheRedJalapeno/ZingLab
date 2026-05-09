@@ -112,6 +112,13 @@ hyper {
     max-width: 800px;
 }
 
+jobsummary {
+    cursor: pointer;
+    width: fit-content;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
 .block {
     display: block !important;
 }
@@ -130,11 +137,12 @@ hyper {
     text-decoration: underline;
 }
 
-.careerdetails {
-  line-height: 1.5em;
-  margin: 2em 0;
-  border-bottom: 1px solid lightgray;
-  max-width: 700px; 
+div.careerdetails {
+    max-width: 700px;
+    line-height: 1.5em;
+    padding: 1em 0;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
 }
 
 span.emphasis {
