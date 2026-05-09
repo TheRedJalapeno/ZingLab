@@ -134,7 +134,7 @@ hyper {
   line-height: 1.5em;
   margin: 2em 0;
   border-bottom: 1px solid lightgray;
-  max-width: 700px;
+  max-width: 700px; 
 }
 
 span.emphasis {
