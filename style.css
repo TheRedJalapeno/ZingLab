@@ -336,6 +336,7 @@ a.inlineLink {
     color: #ff6f00;
     font-weight: bold;
     text-decoration: underline;
+    display: contents;
 }
 
 .image-container {
