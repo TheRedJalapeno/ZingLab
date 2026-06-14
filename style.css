@@ -112,6 +112,15 @@ hyper {
     max-width: 800px;
 }
 
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
 summary {
     cursor: pointer;
     width: fit-content;
@@ -150,6 +159,7 @@ span.emphasis {
     display: block;
     background-color: aliceblue;
 }
+
 
 /* Header */
 header {
@@ -266,6 +276,17 @@ a.inlineLink {
     height: auto;
 }
 
+.card span.flexbox-array {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.card img.thumbnail {
+  width: 50px;
+  height: auto;
+}
+
 .card h3 {
     color: #ff6f00;
     font-size: 1.5em;
@@ -294,7 +315,7 @@ a.inlineLink {
     display: inline-block;
     text-decoration: underline;
     padding: 10px;
-    margin: 0 10%;
+    margin: 0 auto;
     overflow: hidden;
 }
 
