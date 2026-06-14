@@ -50,3 +50,41 @@ function loadContent(type) {
     });
 }
 
+
+// ----- ----- ----- ----- -----
+// ----- ----- ----- ----- -----
+
+// Lightbox popup modal for product images
+(function () {
+  const mainImg  = document.getElementById('mainImg');
+  const lb       = document.getElementById('lb');
+  const lbImg    = document.getElementById('lbImg');
+  const thumbs   = document.querySelectorAll('.thumbnail');
+
+  // Thumbnail click → swap main image, mark active
+  thumbs.forEach(function (t) {
+    t.addEventListener('click', function () {
+      thumbs.forEach(function (x) { x.style.outline = ''; });
+      t.style.outline = '2px solid #f60';
+      mainImg.src = t.src;
+      mainImg.alt = t.alt;
+    });
+  });
+
+  // Highlight first thumb by default
+  if (thumbs.length) thumbs[0].style.outline = '2px solid #f60';
+
+  // Main image click → open lightbox
+  mainImg.style.cursor = 'zoom-in';
+  mainImg.addEventListener('click', function (e) {
+    e.preventDefault();           // don't follow the Stripe link
+    lbImg.src = mainImg.src;
+    lb.style.display = 'flex';
+  });
+
+  // Close lightbox
+  function closeLb() { lb.style.display = 'none'; }
+  document.getElementById('lbClose').addEventListener('click', closeLb);
+  lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLb(); });
+})();

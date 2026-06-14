@@ -4,8 +4,7 @@ description: "Use 4mm precision screwdriver bits in your standard magnetic screw
 in unmissable orange ultra-tough polymer should last a lifetime under normal conditions. Designed in America, Made in
 America, by a Family-owned Business. By purchasing directly from us, we skip the marketplace fees from the big guys, and
 that makes a huge difference to us. From my family to yours, thank you!"
-keywords: "screwdriver, precision, 4mm, adapters, orange, polymer, lifetime, America, Family-owned, Business,
-marketplace fees, direct purchase"
+keywords: "screwdriver, precision, 4mm, adapters, orange, polymer, American, Family-owned, direct purchase"
 url: "https://zinglab.com/nestedhex"
 image: "assets/nestedhex/index.webp"
 layout: default
@@ -14,6 +13,8 @@ permalink: /nestedhex/
 
 <section id="content-section">
   <div class="card">
+    <h3>Nested Hex Adapter</h3>
+    
     <a href="https://buy.stripe.com/eVq7sKcfU57N6GWdkP9IQ0e" target="_blank">
       <img id="mainImg" src="/assets/nestedhex/index.webp" alt="Nested Hex Adapter" loading="lazy">
     </a>
@@ -24,9 +25,9 @@ permalink: /nestedhex/
       <img src="/assets/nestedhex/IMG_9588.webp"  alt="Nested Hex packaging 2" loading="lazy" class="thumbnail" data-full="/assets/nestedhex/IMG_9588.webp">
       <img src="/assets/nestedhex/IMG_9589.webp"  alt="Nested Hex packaging 3" loading="lazy" class="thumbnail" data-full="/assets/nestedhex/IMG_9589.webp">
       <img src="/assets/nestedhex/IMG_9590.webp"  alt="Nested Hex packaging 4" loading="lazy" class="thumbnail" data-full="/assets/nestedhex/IMG_9590.webp">
+      <img src="/assets/nestedhex/IMG_9138.webp"  alt="Nested Hex packaging 5" loading="lazy" class="thumbnail" data-full="/assets/nestedhex/IMG_9138.webp">
     </span>
 
-    <h3>Nested Hex Adapter</h3>
     <h4><em>"Use 4mm precision screwdriver bits in your standard magnetic screwdriver"</em></h4>
     <p class="left">Use 4mm precision screwdriver bits in your standard magnetic screwdriver you love. This 3 pack of adapters in
       unmissable orange ultra-tough polymer should last a lifetime under normal conditions.</p>
@@ -56,38 +57,3 @@ permalink: /nestedhex/
   <img id="lbImg" src="" alt="Enlarged product view" style="max-width:92vw;max-height:88vh;object-fit:contain;border-radius:8px;">
 </div>
 
-<script>
-(function () {
-  const mainImg  = document.getElementById('mainImg');
-  const lb       = document.getElementById('lb');
-  const lbImg    = document.getElementById('lbImg');
-  const thumbs   = document.querySelectorAll('.thumbnail');
-
-  // Thumbnail click → swap main image, mark active
-  thumbs.forEach(function (t) {
-    t.addEventListener('click', function () {
-      thumbs.forEach(function (x) { x.style.outline = ''; });
-      t.style.outline = '2px solid #f60';
-      mainImg.src = t.src;
-      mainImg.alt = t.alt;
-    });
-  });
-
-  // Highlight first thumb by default
-  if (thumbs.length) thumbs[0].style.outline = '2px solid #f60';
-
-  // Main image click → open lightbox
-  mainImg.style.cursor = 'zoom-in';
-  mainImg.addEventListener('click', function (e) {
-    e.preventDefault();           // don't follow the Stripe link
-    lbImg.src = mainImg.src;
-    lb.style.display = 'flex';
-  });
-
-  // Close lightbox
-  function closeLb() { lb.style.display = 'none'; }
-  document.getElementById('lbClose').addEventListener('click', closeLb);
-  lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLb(); });
-})();
-</script>
