@@ -7,7 +7,7 @@ keywords: "speed reading, HotGato, reading app, bionic reading, WPM"
 permalink: "/websites/hotgato-speed-reader"
 livelink: "https://hotgato.com"
 githublink: "https://github.com/TheRedJalapeno/HotGato_SpeedReader"
-image: "/assets/hotgato_400.jpg"
+image: "/assets/2024_hotgato.png"
 ---
 
 HotGato is a fast, flexible speed-reading app designed for people who want to consume more while spending less time. It's free and open source for personal use, with commercial and corporate licensing available for teams and enterprises.

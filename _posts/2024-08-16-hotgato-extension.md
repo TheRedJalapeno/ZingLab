@@ -7,7 +7,7 @@ keywords: "speed reading, Chrome extension, HotGato, productivity, reading tool"
 permalink: "/projects/hotgato-extension"
 livelink: "https://chromewebstore.google.com/detail/hotgato-speed-reader/ogecmlkfllamfilgdigmaifjcbmfhgib?"
 githublink: "https://github.com/TheRedJalapeno/HotGato_Extension"
-image: "/assets/hotgato_400.jpg"
+image: "/assets/2024_hotgato_extension.jpg"
 ---
 
 HotGato Speed Reader brings the core HotGato experience into your browser with a lightweight extension for Chrome and Firefox. Select text on any page, right-click (or use the toolbar), and launch a focused reading session without leaving the page.
