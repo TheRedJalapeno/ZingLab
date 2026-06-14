@@ -249,6 +249,9 @@ a.inlineLink {
     display: flex;
     justify-content: space-evenly;
     align-content: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: anchor-center;
 }
 
 /* Cards */
@@ -265,7 +268,6 @@ a.inlineLink {
     box-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 
-
 .card img {
     width: 75%;
     height: auto;
@@ -275,6 +277,7 @@ a.inlineLink {
     display: flex;
     justify-content: space-evenly;
     align-content: stretch;
+    flex-wrap: wrap;
 }
 
 .card img.thumbnail {
