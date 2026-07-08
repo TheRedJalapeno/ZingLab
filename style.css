@@ -149,6 +149,12 @@ span.emphasis {
     background-color: aliceblue;
 }
 
+h3#what-can-we-do-for-you {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 48px auto;
+}
 
 /* Header */
 header {
@@ -548,4 +554,13 @@ section.about img.author-photo {
     width: 100px;
     height: auto;
     margin: 10px 20px 20px 0;
+}
+
+
+/* Page Specific Styles */
+
+section#content-section.page-websites div.card img {
+    width: auto;
+    border: 1px solid gray;
+    max-width: 100%;
 }
