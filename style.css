@@ -432,7 +432,7 @@ section.hiring {
 /* Copyright Section */
 section.copyright {
     color: ivory;
-    background-color: var(#ff6f00);
+    background-color: var(--orange);
     padding: 20px;
     text-align: center;
 }
@@ -443,7 +443,8 @@ section.contact {
     background-color: #333;
     padding: 40px;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
 section.contact h2 {
