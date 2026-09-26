@@ -82,7 +82,8 @@ ul {
 }
 
 ul li {
-    list-style-type: '⚡';
+    list-style-image: url('/assets/list.png');
+    list-style-position: inside;
 }
 
 em {
