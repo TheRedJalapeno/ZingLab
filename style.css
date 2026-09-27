@@ -284,7 +284,7 @@ a.inlineLink {
 
 .card span.flexbox-array {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: stretch;
     flex-wrap: wrap;
     padding-bottom: 10px;
