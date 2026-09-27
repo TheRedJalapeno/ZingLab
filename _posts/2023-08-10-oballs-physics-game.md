@@ -6,15 +6,14 @@ description: "Simple physics games, one Space Invaders clone, one with a complex
 keywords: "game, physics, Space Invaders, audio, interactive"
 permalink: "/websites/oballs-physics-game"
 livelink: "https://oballs.com/"
-githublink: "https://github.com/TheRedJalapeno/OBalls"
 image: "/assets/2023_oballs.jpg"
 ---
 
 oBalls is a small collection of browser-based physics games built to explore mechanics, audio design, and performance-friendly web gameplay. The project contains two playable experiences: a physics-driven Space Invaders–style shooter and a second demo that focuses on audio management and interactive sound.
 
 Gameplay and features
+- Billiards with BALLS! 
 - Physics-based movement and collisions: objects behave with realistic arcs, rebounds, and momentum, giving each level a tactile, responsive feeling.
-- Space Invaders–inspired mode: classic wave-based enemies are combined with modern physics reactions so shots and obstacles affect the world in more dynamic ways than rigid-grid clones.
 - Audio-heavy demo: demonstrates an audio management system with caching, dynamic volume scaling, preloading, and intelligent voice/sample mixing to keep memory use low while maintaining rich soundscapes.
 
 Audio system highlights
