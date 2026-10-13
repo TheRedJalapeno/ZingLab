@@ -47,8 +47,8 @@ layout: default
 
   {%- if page.tldr %}
   <aside class="tldr">
-    <strong>Short answer</strong>
-    <p>{{ page.tldr }}</p>
+    <strong>{{ page.tldr_label | default: "Short answer" }}</strong>
+    {{ page.tldr | markdownify }}
   </aside>
   {%- endif %}
 
@@ -261,6 +261,25 @@ layout: default
   .tldr p {
     display: block;
     margin: 0.25rem 0 0;
+  }
+
+  .tldr p + p {
+    margin-top: 0.75rem;
+  }
+
+  .post-content .pull-quote {
+    display: block;
+    clear: both;
+    margin: 2.5rem 0;
+    padding: 1rem 0;
+    border-top: 3px solid #ff6f00;
+    border-bottom: 3px solid #ff6f00;
+    color: #222;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.3;
+    text-align: center;
   }
 
   .post-content table {

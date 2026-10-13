@@ -91,18 +91,6 @@ em {
     font-style: italic;
 }
 
-hyper {
-    margin: 20px auto;
-    font-size: 2em;
-    text-align: center;
-    display: block;
-    text-shadow: 2px 2px orange;
-    font-style: italic;
-    border-top: 2px solid orange;
-    border-bottom: 2px solid orange;
-    max-width: 800px;
-}
-
 .left {
     text-align: left;
 }
@@ -143,12 +131,6 @@ div.careerdetails {
     padding: 1em 0;
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
-}
-
-span.emphasis {
-    padding: 10px 30px;
-    display: block;
-    background-color: aliceblue;
 }
 
 h3#what-can-we-do-for-you {
@@ -412,16 +394,61 @@ a.inlineLink {
 }
 
 
-/* Texblock */
+/* Textblock — page intros and text pages: sharp, boxless, left-aligned */
 .textblock {
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
-    margin: 20px;
-    padding: 20px;
     width: 100%;
     max-width: 1100px;
-    box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    margin: 20px;
+    padding: 44px 0 12px;
     text-align: left;
+}
+
+.textblock h1 {
+    color: #1f1f1f;
+    font-size: clamp(2.1em, 4.2vw, 3em);
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -0.5px;
+    margin: 0 0 18px;
+}
+
+.textblock h1::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 5px;
+    margin-top: 18px;
+    background-color: #ff6f00;
+}
+
+.textblock h2 {
+    color: #1f1f1f;
+    font-size: clamp(1.5em, 3vw, 2em);
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 28px 0 10px;
+}
+
+.textblock h3 {
+    color: #ff6f00;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 22px 0 8px;
+}
+
+.textblock p {
+    display: block;
+    color: #555;
+    font-size: 1.12em;
+    line-height: 1.65;
+    max-width: 760px;
+    margin: 0 0 14px;
+}
+
+.textblock li {
+    color: #555;
+    font-size: 1.05em;
+    line-height: 1.6;
 }
 
 .textblock img {
@@ -429,23 +456,31 @@ a.inlineLink {
     height: auto;
 }
 
-.textblock h3 {
-    color: #ff6f00;
-    font-size: 1.5em;
-}
-
-.textblock p {
-    color: #666;
-    font-size: 1em;
-    margin: 10px 0;
-    display: flex;
-}
-
 .textblock a {
     color: #ff6f00;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: underline;
-    display: contents; 
+    text-underline-offset: 3px;
+}
+
+.textblock a:hover {
+    color: #d25b00;
+}
+
+/* Sub-section intros (e.g. Amazon / Campus Advantage on the portfolio) */
+.textblock.section-heading {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-top: 36px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.textblock.section-heading h2 {
+    margin-top: 0;
+}
+
+.textblock .small-links {
+    font-size: 1em;
 }
 
 .image-container {
@@ -610,27 +645,6 @@ blockquote {
     color: slategray;
 }
 
-/* The ADHD essay wraps its whole article in .card.blog; render it as plain article text, not a card */
-div.card.blog {
-    display: block;
-    flex: 1 1 100%;
-    min-width: 0;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-shadow: none;
-}
-
-div.card.blog:hover {
-    transform: none;
-    box-shadow: none;
-}
-
-div.card.blog p {
-    margin: 1rem 0;
-}
-
 div.metadata {
     font-size: 0.8em;
     color: #333;
@@ -678,19 +692,6 @@ section.about img.author-photo {
     flex: 1 1 100%;
     margin-left: max(20px, calc((100% - 1100px) / 2));
     margin-right: max(20px, calc((100% - 1100px) / 2));
-}
-
-.textblock.section-heading {
-    margin-bottom: 0;
-}
-
-.textblock h2 {
-    color: #ff6f00;
-    margin-bottom: 0;
-}
-
-.textblock .small-links {
-    font-size: 0.9em;
 }
 
 /* Site footer */
