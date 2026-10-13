@@ -683,10 +683,8 @@ section#content-section.page-websites div.card img {
 
 .site-footer h2 {
     color: #ff8a2b;
-    font-size: 0.85em;
+    font-size: 1.05em;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
     margin-bottom: 14px;
 }
 
@@ -699,8 +697,6 @@ section#content-section.page-websites div.card img {
     color: #aaa;
     font-size: 0.85em;
     font-weight: 500;
-    letter-spacing: 0.5px;
-    text-transform: none;
     vertical-align: 1px;
 }
 
@@ -739,8 +735,7 @@ section#content-section.page-websites div.card img {
     color: #fff;
     font-size: 1.6em;
     font-weight: 600;
-    letter-spacing: 4px;
-    text-transform: uppercase;
+    letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
@@ -874,9 +869,7 @@ section#content-section.page-websites div.card img {
 .home .home-eyebrow {
     color: #ff6f00;
     font-weight: 700;
-    font-size: 0.85em;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    font-size: 1em;
     margin-bottom: 14px;
 }
 
