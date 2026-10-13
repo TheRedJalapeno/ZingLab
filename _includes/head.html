@@ -58,8 +58,8 @@
     <!-- Favicon -->
     <link rel="icon" href="{{ "/assets/favicon.png" | relative_url }}" type="image/png">
 
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="{{ "/style.css" | relative_url }}">
+    <!-- CSS Stylesheet (versioned per build so Cloudflare/browser caches pick up changes immediately) -->
+    <link rel="stylesheet" href="{{ "/style.css" | relative_url }}?v={{ site.time | date: '%s' }}">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
