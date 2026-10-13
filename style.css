@@ -293,8 +293,7 @@ a.inlineLink {
     object-position: top;
 }
 
-.card h3,
-.card h1.card-title {
+.card h3 {
     color: #222;
     font-size: 1.25em;
     font-weight: 700;
@@ -1225,4 +1224,317 @@ section.about img.author-photo {
 .page404-title {
     font-size: 1.2em;
     font-weight: 700;
+}
+
+/* Nested Hex product page — mobile first */
+.nh {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.nh-gallery {
+    background-color: #f4f4f4;
+}
+
+.nh-main {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: zoom-in;
+}
+
+.nh-main img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.nh-zoom {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .55);
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Swipeable thumbnail strip */
+.nh-thumbs {
+    display: flex;
+    gap: 10px;
+    padding: 12px 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.nh-thumbs::-webkit-scrollbar {
+    display: none;
+}
+
+.nh-thumbs .thumbnail {
+    flex: 0 0 auto;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    scroll-snap-align: start;
+}
+
+.nh-thumbs .thumbnail.is-active {
+    border-color: #ff6f00;
+}
+
+.nh-info {
+    padding: 24px 16px 8px;
+}
+
+.nh-info h1 {
+    color: #1f1f1f;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 8px;
+}
+
+.nh-tagline {
+    display: block;
+    color: #666;
+    font-size: 1.05em;
+    font-style: italic;
+    margin: 0 0 16px;
+}
+
+.nh-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.nh-badges > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background-color: #fff3e6;
+    color: #b34d00;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.nh-badges .material-symbols-outlined {
+    font-size: 18px;
+}
+
+.nh-buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 56px;
+    border-radius: 6px;
+    background-color: #ff6f00;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    transition: background-color 0.2s;
+}
+
+.nh-buy:hover,
+.nh-buy:active {
+    background-color: #d25b00;
+}
+
+.nh-soon {
+    display: block;
+    margin: 10px 0 24px;
+    color: #999;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.nh-desc {
+    display: block;
+    color: #444;
+    font-size: 1.1em;
+    line-height: 1.65;
+    margin: 0 0 20px;
+}
+
+.nh ul.nh-features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+}
+
+.nh ul.nh-features li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    color: #333;
+    font-size: 1.05em;
+    list-style: none;
+    list-style-image: none;
+}
+
+.nh-features .material-symbols-outlined {
+    flex: 0 0 auto;
+    color: #ff6f00;
+    font-size: 22px;
+}
+
+.nh-note {
+    margin: 0 0 24px;
+    padding: 18px;
+    border-left: 4px solid #ff6f00;
+    background-color: #f7f7f7;
+}
+
+.nh-note p {
+    display: block;
+    color: #555;
+    margin: 0 0 8px;
+}
+
+.nh-note p:last-child {
+    margin-bottom: 0;
+}
+
+/* Sticky buy bar (phones) */
+.nh-buybar {
+    position: sticky;
+    bottom: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, .08);
+}
+
+.nh-buybar-name {
+    display: flex;
+    flex-direction: column;
+    color: #222;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.nh-buybar-name small {
+    color: #888;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.nh-buybar a {
+    flex: 0 0 auto;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background-color: #ff6f00;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Lightbox */
+.nh-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .9);
+}
+
+.nh-lightbox[hidden] {
+    display: none;
+}
+
+.nh-lightbox img {
+    max-width: 94vw;
+    max-height: 88vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.nh-lightbox button {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .18);
+    color: #fff;
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* Larger screens: gallery and details side by side, no sticky bar */
+@media (min-width: 820px) {
+    .nh {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        gap: 48px;
+        align-items: start;
+        padding: 40px 24px 60px;
+    }
+
+    .nh-gallery {
+        position: sticky;
+        top: 20px;
+        background: none;
+    }
+
+    .nh-main img {
+        border: 1px solid #eee;
+        border-radius: 8px;
+    }
+
+    .nh-thumbs {
+        flex-wrap: wrap;
+        padding: 12px 0 0;
+        overflow: visible;
+    }
+
+    .nh-info {
+        padding: 0;
+    }
+
+    .nh-info h1 {
+        font-size: 2.6em;
+    }
+
+    .nh ul.nh-features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nh-buybar {
+        display: none;
+    }
 }
