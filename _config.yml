@@ -19,34 +19,59 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ZingLab
-email: hi@zinglab.com
+tagline: "Speed reading, pixel art, memory training, games, research, and web development"
+email: info@zinglab.com
 description: >- # this means to ignore newlines until "baseurl:"
-  "ZingLab is a creative hub showcasing innovative websites, engaging books, and cutting-edge web apps. Explore a portfolio of unique projects blending technology, storytelling, and design to inspire and captivate audiences worldwide."
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://zinglab.com" 
-github_username:  redjalapeno
+  ZingLab is an independent R&D lab and software studio. We build HotGato, the most advanced free speed reader online;
+  Zoetrope, a private in-browser GIF and pixel art animator; GlyphRecall memory training; browser games; dementia
+  screening research tools; and custom websites, web apps, and marketing technology for clients.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zinglab.com"
+lang: en_US
+locale: en_US
+timezone: America/New_York
+github_username: TheRedJalapeno
+logo: /assets/logo.png
+author:
+  name: Robert Allen
+  url: https://zinglab.com/about/
+social:
+  name: ZingLab
+  links:
+    - https://github.com/TheRedJalapeno
+    - https://www.linkedin.com/in/robertdallenmba/
+    - https://www.crunchbase.com/person/robert-allen-55cf
+
+# Posts dated in the future are NOT published. Scheduled posts go live when
+# .github/workflows/scheduled-publish.yml rebuilds the site every Monday.
+future: false
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+feed:
+  posts_limit: 50
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Robert Allen
+  - scope:
+      path: "2024-deprecated"
+    values:
+      sitemap: false
+
+exclude:
+  - 2024-deprecated/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.af"
+  - vendor/

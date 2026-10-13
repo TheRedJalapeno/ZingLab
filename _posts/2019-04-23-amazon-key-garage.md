@@ -2,6 +2,8 @@
 layout: post
 title: "Amazon Key for Garage"
 type: portfolio
+client: "Amazon"
+featured: 1
 description: "Amazon Key for Garage product launch. This marketing campaign launched a new line of business which became the most successful line within two weeks."
 keywords: "digital marketing, go to market, product launch, national campaign, good morning america, amazon, amazon key"
 image: "/assets/portfolio/amazon-key-garage-h5-1.jpg"
@@ -48,4 +50,3 @@ We had a successful launch day with Key for Garage being the #1 best selling lin
 **Link:**  [Amazon Key for Garage](https://www.amazon.com/key-delivery/)
 
 
-### What can we do for you?

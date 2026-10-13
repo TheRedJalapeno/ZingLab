@@ -1,15 +1,34 @@
 ---
-title: "ZingLab Portfolio of Clients"
-description: "ZingLab portfolio of work including websites, webapps, and digital marketing projects that have transformed businesses and improved profitability."
-keywords: "ZingLab, websites, webapps, business transformation, digital transformation, profitability improvement, business improvement, marketing technology, Robert Allen, turaround, turnaround artist, consulting, freelance"
-url: "https://zinglab.com/portfolio/"
-image: "/assets/index.webp"
+title: "ZingLab Portfolio — Marketing Operations, Product Launches & Web Development"
+description: "Case studies from ZingLab founder Robert Allen: Amazon Key product launches, a multi-billion dollar performance marketing program, and dozens of web and email campaigns for Campus Advantage."
+keywords: "ZingLab portfolio, marketing operations, product launch marketing, Amazon Key, email marketing campaigns, landing page design, WordPress development, marketing technology consulting, Robert Allen"
+image: "/assets/portfolio/amazon-key-garage-h5-1.jpg"
 layout: default
 permalink: /portfolio/
 ---
 
 <section id="content-section">
-    <h1>Client Portfolio</h1>
-    {% include portfolio.html %}
+    <div class="textblock">
+        <h1>Client Portfolio</h1>
+        <p>Before ZingLab built its own products, it built other people's. This is a selection of launches,
+            campaigns, and rescues from our founder's years in marketing operations — from the Amazon homepage to
+            a 70-client real estate web portfolio that needed a lot more uptime than it was getting.</p>
+        <p>What we do for clients today: product launch and lifecycle marketing, marketing technology and
+            operations, websites and web apps, and the unglamorous infrastructure work that keeps all of it running.
+            <a href="mailto:info@zinglab.com?subject=Project%20inquiry">Tell us what you're working on →</a></p>
+    </div>
 
+    <div class="textblock section-heading">
+        <h2>Amazon</h2>
+        <p>Go-to-market for Amazon Key — in-home, in-garage, and business delivery — plus global performance
+            marketing risk reduction.</p>
+    </div>
+    {% include post_list.html type="portfolio" client="Amazon" %}
+
+    <div class="textblock section-heading">
+        <h2>Campus Advantage</h2>
+        <p>Website templates, email programs, and infrastructure for a student and multifamily housing company
+            managing 70+ properties.</p>
+    </div>
+    {% include post_list.html type="portfolio" client="Campus Advantage" %}
 </section>

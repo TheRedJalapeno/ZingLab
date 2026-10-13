@@ -1,39 +1,116 @@
 ---
 layout: default
 ---
+{%- case page.type -%}
+  {%- when "blog" -%}{%- assign section_name = "Blog" -%}{%- assign section_url = "/blog/" -%}
+  {%- when "portfolio" -%}{%- assign section_name = "Portfolio" -%}{%- assign section_url = "/portfolio/" -%}
+  {%- when "projects" -%}{%- assign section_name = "Projects" -%}{%- assign section_url = "/projects/" -%}
+  {%- when "websites" -%}{%- assign section_name = "Websites" -%}{%- assign section_url = "/websites/" -%}
+{%- endcase -%}
 
 <article class="post-article">
+  {%- if section_name %}
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a> › <a href="{{ section_url | relative_url }}">{{ section_name }}</a> › <span>{{ page.title }}</span>
+  </nav>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ '/' | absolute_url }}" },
+      { "@type": "ListItem", "position": 2, "name": "{{ section_name }}", "item": "{{ section_url | absolute_url }}" },
+      { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}" }
+    ]
+  }
+  </script>
+  {%- endif %}
+
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      {% if page.date %}
-        <span class="post-date">
-          Published on: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-        </span>
-      {% endif %}
-      {% if page.type %}
-        <span class="post-type">Type: {{ page.type | capitalize }}</span>
-      {% endif %}
+      {%- if page.type == "blog" or page.type == "portfolio" %}
+      {%- if page.author %}<span class="post-author">By <a href="{{ '/about/' | relative_url }}">{{ page.author }}</a></span>{% endif %}
+      <span class="post-date">Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+      {%- if page.last_modified_at %}
+      <span class="post-date">Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time></span>
+      {%- endif %}
+      {%- endif %}
+      {%- if page.topic %}<span class="post-type">{{ page.topic }}</span>{% endif %}
+      {%- if page.client %}<span class="post-type">Client: {{ page.client }}</span>{% endif %}
     </div>
   </header>
 
+  {%- if page.disclosure %}
+  <p class="disclosure"><strong>Disclosure:</strong> {{ page.disclosure }}</p>
+  {%- endif %}
+
+  {%- if page.tldr %}
+  <aside class="tldr">
+    <strong>Short answer</strong>
+    <p>{{ page.tldr }}</p>
+  </aside>
+  {%- endif %}
+
   <div class="post-content">
-    {% if page.image and page.image != "" %}
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-image" loading="lazy">
-    {% endif %}
+    {%- if page.image and page.image != "" and page.hide_image != true %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" class="post-image" loading="lazy">
+    {%- endif %}
     {{ content }}
   </div>
 
-  {% if page.livelink or page.githublink %}
+  {%- if page.faq %}
+  <section class="post-faq">
+    <h2>Frequently asked questions</h2>
+    {%- for item in page.faq %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {%- endfor %}
+  </section>
+  {%- endif %}
+
+  {%- if page.livelink or page.githublink %}
       <div class="post-links">
-        {% if page.livelink and page.livelink != "" %}
-          <a class="post-link" href="{{ page.livelink }}" target="_blank">View Live</a>
-        {% endif %}
-        {% if page.githublink and page.githublink != "" %}
-          <a class="post-link" href="{{ page.githublink }}" target="_blank">GitHub Repository</a>
-        {% endif %}
+        {%- if page.livelink and page.livelink != "" %}
+          <a class="post-link" href="{{ page.livelink }}" target="_blank" rel="noopener">{{ page.livelink_text | default: "View Live" }}</a>
+        {%- endif %}
+        {%- if page.githublink and page.githublink != "" %}
+          <a class="post-link" href="{{ page.githublink }}" target="_blank" rel="noopener">GitHub Repository</a>
+        {%- endif %}
       </div>
-  {% endif %}
+  {%- endif %}
+
+  {%- if page.type == "portfolio" %}
+  <aside class="post-cta">
+    <h2>What can we do for you?</h2>
+    <p>Product launches, marketing operations, websites, and web apps. <a href="mailto:info@zinglab.com?subject=Project%20inquiry">Tell us about your project →</a></p>
+  </aside>
+  {%- endif %}
+
+  {%- if page.type == "blog" %}
+  <section class="post-author-box">
+    <h2>About the author</h2>
+    {% include about_robert.html %}
+  </section>
+
+  {%- assign related = site.posts | where: "type", "blog" | where: "topic", page.topic -%}
+  {%- if related.size > 1 %}
+  <nav class="related-posts" aria-label="More from the blog">
+    <h2>More {{ page.topic | default: "posts" | downcase }}</h2>
+    <ul>
+      {%- assign shown = 0 -%}
+      {%- for post in related -%}
+        {%- if post.url != page.url and shown < 6 -%}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {%- assign shown = shown | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor %}
+    </ul>
+  </nav>
+  {%- endif %}
+  {%- endif %}
 </article>
 
 <style>
@@ -44,17 +121,24 @@ layout: default
   }
 
   .post-header {
+    text-align: left;
+    padding: 0 0 1.5rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 1.5rem;
     background-color: #ffffff;
   }
 
-  .post-title {
-    font-size: 2.5rem;
-    margin: 0 auto 1rem;
+  .post-header .post-title {
+    font-size: 2.2rem;
+    margin: 0 0 1rem;
+    max-width: none;
     line-height: 1.2;
-    color: #666;
+    color: #444;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    text-shadow: none;
   }
 
   .post-meta {
@@ -148,9 +232,123 @@ layout: default
     filter: drop-shadow(2px 2px 2px #333);
   }
 
+
+  .breadcrumbs {
+    font-size: 0.9rem;
+    color: #888;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .breadcrumbs a {
+    color: #ff6f00;
+    text-decoration: underline;
+  }
+
+  .post-meta a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  .disclosure,
+  .tldr {
+    display: block;
+    text-align: left;
+    background-color: #fff7ef;
+    border-left: 4px solid #ff6f00;
+    padding: 0.75rem 1.25rem;
+    margin: 1rem 0;
+    color: #555;
+  }
+
+  .tldr p {
+    display: block;
+    margin: 0.25rem 0 0;
+  }
+
+  .post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    display: block;
+    overflow-x: auto;
+  }
+
+  .post-content th,
+  .post-content td {
+    border: 1px solid #ddd;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .post-content th {
+    background-color: #fff3e6;
+    color: #333;
+  }
+
+  .post-content a {
+    color: #ff6f00;
+    text-decoration: underline;
+  }
+
+  .post-content p {
+    display: block;
+  }
+
+  .post-faq,
+  .post-author-box,
+  .related-posts,
+  .post-cta {
+    text-align: left;
+    margin: 2.5rem 0;
+    clear: both;
+  }
+
+  .post-faq h2,
+  .post-author-box h2,
+  .related-posts h2,
+  .post-cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .post-faq details {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.25rem 0;
+  }
+
+  .post-faq summary {
+    font-weight: 700;
+    width: auto;
+  }
+
+  .post-faq details p {
+    display: block;
+    color: #555;
+    margin: 0 0 1rem;
+  }
+
+  .related-posts a,
+  .post-cta a {
+    color: #ff6f00;
+    text-decoration: underline;
+  }
+
+  .post-cta {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .post-cta p {
+    display: block;
+  }
+
   @media (max-width: 600px) {
-    .post-title {
-      font-size: 1.8rem;
+    .post-header .post-title {
+      font-size: 1.7rem;
     }
 
     .post-meta {
@@ -160,6 +358,13 @@ layout: default
 
     .post-content {
       font-size: 1rem;
+    }
+
+    .post-image {
+      float: none;
+      display: block;
+      max-width: 100%;
+      margin: 0 auto 1.5rem;
     }
   }
 </style>

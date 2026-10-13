@@ -17,27 +17,44 @@
                 </a>
             </p>
         </span>
-        <span class="left">
+        <nav class="left footer-nav" aria-label="Site">
             <ul class="flexbox-array">
-                <li><a href="https://zinglab.com">Home</a></li>
-                <li><a href="https://zinglab.com/about">About</a></li>
-                <li><a href="https://zinglab.com/books">Books</a></li>
-                <li><a href="https://zinglab.com/nestedhex">Nested Hex</a></li>
-                <li><a href="https://zinglab.com/websites">Websites</a></li>
-                <li><a href="https://zinglab.com/projects">Projects</a></li>
-                <li><a href="https://zinglab.com/research">Research</a></li>
-                <li><a href="https://zinglab.com/games">Games</a></li>
-                <li><a href="https://zinglab.com/portfolio">Portfolio</a></li>
-                <!-- <li><a href="https://zinglab.com/careers">Careers</a></li> -->
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/portfolio/">Portfolio</a></li>
+                <li><a href="/websites/">Websites</a></li>
+                <li><a href="/games/">Games</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/research/">Research</a></li>
+                <li><a href="/books/">Books</a></li>
+                <li><a href="/nestedhex/">Nested Hex</a></li>
+                <!-- <li><a href="/careers/">Careers</a></li> -->
             </ul>
-        </span>
+        </nav>
+        <nav class="left footer-nav" aria-label="Our apps">
+            <ul class="flexbox-array">
+                <li><a href="https://hotgato.com/?ref=zinglab">HotGato Speed Reader</a></li>
+                <li><a href="https://zoetrope.zinglab.com">Zoetrope GIF Animator</a></li>
+                <li><a href="https://glyph.zinglab.com">GlyphRecall Memory Trainer</a></li>
+                <li><a href="https://vart.zinglab.com">VART Cognitive Screening</a></li>
+                <li><a href="https://humanjourney.zinglab.com">Human Journey</a></li>
+                <li><a href="https://openfantasy.org">Dungeon of the Mists</a></li>
+                <li><a href="https://tothevictorgame.com">To The Victor</a></li>
+            </ul>
+        </nav>
     </section>
 
-    <!-- Copyright Section -->
+    <!-- Copyright & machine-readable links -->
     <section id="copyright" class="copyright">
-        <p>&copy;
-            <script>document.write(new Date().getFullYear())</script> ZingLab. All rights reserved.
+        <p class="footer-meta">
+            <a href="/sitemap.xml">Sitemap</a> ·
+            <a href="/feed.xml">RSS</a> ·
+            <a href="/llms.txt">llms.txt</a> ·
+            <a href="/privacy/">Privacy</a> ·
+            <a href="/terms-of-use/">Terms</a>
         </p>
+        <p>&copy; {{ site.time | date: "%Y" }} ZingLab. All rights reserved.</p>
     </section>
 
 </footer>

@@ -2,6 +2,7 @@
 layout: post
 title: "Campus Advantage Yacht Harbor Campaign"
 type: portfolio
+client: "Campus Advantage"
 description: "The Yacht Harbor Club Informative Campaign was one of three simultaneous campaigns we ran for them in an effort to drive awareness, traffic, and sales. "
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-yaha-realtor-informative-lp.jpg"
@@ -23,4 +24,3 @@ The Yacht Harbor Club Informative Campaign was one of three simultaneous campaig
 
 
 
-### What can we do for you?

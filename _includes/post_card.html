@@ -1,0 +1,21 @@
+{%- assign post = include.post -%}
+<article class="card{% if include.pinned %} card-pinned{% endif %}">
+  {%- if include.pinned %}<span class="pin-badge">★ Featured</span>{% endif %}
+  <a class="toplink" href="{{ post.url | relative_url }}">
+    <h3>{{ post.title }}</h3>
+    {%- if post.image and post.image != "" %}
+    <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
+    {%- endif %}
+  </a>
+  {%- if post.type == "blog" %}
+  <p class="card-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% if post.topic %} · {{ post.topic }}{% endif %}</p>
+  {%- endif %}
+  <p>{{ post.description }}</p>
+  <a class="cardlink" href="{{ post.url | relative_url }}">{% if post.type == "blog" %}Read more{% else %}Details{% endif %}</a>
+  {%- if post.livelink and post.livelink != "" %}
+  <a class="cardlink" href="{{ post.livelink }}" target="_blank" rel="noopener">See it live</a>
+  {%- endif %}
+  {%- if post.githublink and post.githublink != "" %}
+  <a class="cardlink" href="{{ post.githublink }}" target="_blank" rel="noopener">GitHub</a>
+  {%- endif %}
+</article>

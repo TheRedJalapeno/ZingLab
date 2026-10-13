@@ -2,7 +2,8 @@
 layout: post
 title: "Campus Advantage Year of Free Campaign"
 type: portfolio
-description: "B2C email marketing campaign sent to 200,000 renters to renew early."
+client: "Campus Advantage"
+description: "A five-month, four-email Year of Free campaign reaching 200,000+ renters across 100+ properties, built to render perfectly in every inbox."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-year-of-free-1.jpg"
 date: 2018-09-15
@@ -23,4 +24,3 @@ The Year of Free campaign reached over 200,000 recipients, lasted five months, a
 
 
 
-### What can we do for you?

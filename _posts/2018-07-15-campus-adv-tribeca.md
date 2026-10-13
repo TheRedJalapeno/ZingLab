@@ -2,6 +2,7 @@
 layout: post
 title: "Campus Advantage Tribeca Campaign"
 type: portfolio
+client: "Campus Advantage"
 description: "The Tribeca campaign was a one-off campaign for a potential client."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-tribeca-luxe-life-lp.jpg"
@@ -23,4 +24,3 @@ The Tribeca campaign was a one-off campaign for a potential client. Halfway thro
 
 
 
-### What can we do for you?

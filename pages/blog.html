@@ -1,10 +1,22 @@
 ---
-title: "ZingLab Blog"
-description: "Articles and essays by Robert Allen"
-keywords: "ZingLab, blog, Robert Allen, essays"
+title: "ZingLab Blog — Software Comparisons, Research & Essays"
+description: "Honest-but-opinionated comparisons of speed readers, GIF makers, memory games, browser games and more — plus essays on learning, language, and cognition from the ZingLab team."
+keywords: "ZingLab blog, best speed reader, best GIF maker, pixel art animator, memory training games, browser games, software comparisons, Robert Allen essays"
+image: "/assets/index.webp"
 layout: default
 permalink: /blog/
 ---
 
-  <h1>Blog</h1>
-  {% include blog.html %}
+<section id="content-section">
+    <div class="textblock">
+        <h1>The ZingLab Blog</h1>
+        <p>Field notes from a small lab that builds a lot of things. Here you'll find head-to-head comparisons of the
+            tools we make against the best of the competition — speed readers, GIF and pixel art animators, memory
+            trainers, browser games — along with longer essays on language, learning, and how brains actually work.</p>
+        <p>Full disclosure, always: when we compare one of our own products, we say so up front, link to every
+            competitor, and tell you when the other guy is the better pick. New posts land every Monday.</p>
+        <p class="small-links"><a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>&nbsp;·&nbsp;<a href="{{ '/portfolio/' | relative_url }}">See our client work</a></p>
+    </div>
+
+    {% include post_list.html type="blog" %}
+</section>

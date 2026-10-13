@@ -2,10 +2,11 @@
 layout: post
 title: "Amazon Key for Home plus Ring Video Doorbell"
 type: portfolio
+client: "Amazon"
 description: "Amazon Key for Home integration announcement for Ring video doorbell. We were featured on H1 of the Amazon homepage."
 keywords: "email marketing, digital marketing, go to market, product launch, national campaign, amazon, amazon key"
 image: "/assets/portfolio/amazon-key-home-h1.jpg"
-date: 2019-07-15
+date: 2019-03-15
 author: "Robert Allen"
 permalink: /portfolio/amazon-key-for-home/
 ---
@@ -21,4 +22,3 @@ Prior to the Key for Garage launch I was put in charge of the Key+Ring integrati
 
 
 
-### What can we do for you?

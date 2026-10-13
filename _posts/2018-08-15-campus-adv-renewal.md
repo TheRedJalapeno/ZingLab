@@ -2,6 +2,7 @@
 layout: post
 title: "Campus Advantage Renewal Campaign"
 type: portfolio
+client: "Campus Advantage"
 description: "B2C email marketing campaign sent to 200,000 renters to renew early."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-renewal-2019-landing-page.jpg"
@@ -23,4 +24,3 @@ The Renewal campaign is the biggest campaign of the year reaching nearly half a 
 
 
 
-### What can we do for you?

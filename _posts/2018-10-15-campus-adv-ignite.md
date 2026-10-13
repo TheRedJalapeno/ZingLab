@@ -2,6 +2,7 @@
 layout: post
 title: "Campus Advantage Ignite Campaign"
 type: portfolio
+client: "Campus Advantage"
 description: "Robust email marketing program aimed at students and young professionals."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-ignite-your-brand-email-1.jpg"
@@ -23,4 +24,3 @@ For the Ignite Campaign I received a single drawing of a landing page from which
 
 
 
-### What can we do for you?

@@ -2,6 +2,7 @@
 layout: post
 title: "Campus Advantage Value-Add Pages"
 type: portfolio
+client: "Campus Advantage"
 description: "While managing 70+ client websites, I often built cool value-add pages which were then packaged and resold."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-upgrades-lp.jpg"
@@ -23,4 +24,3 @@ I managed over 70 client websites. During the course, I often made compelling ad
 
 
 
-### What can we do for you?

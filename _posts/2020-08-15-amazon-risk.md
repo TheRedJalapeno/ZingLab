@@ -2,6 +2,7 @@
 layout: post
 title: "Amazon Risk Mitigation"
 type: portfolio
+client: "Amazon"
 description: "Single threaded leader of a multi-billion dollar global performance marketing program, and reduced cost per acquisition by 42%."
 keywords: "marketing technology, performance marketing, international marketing, change management, digital transformation, go to market, product launch, national campaign, amazon, fintech, finance, financial technology"
 image: "/assets/logo_amazon.webp"
@@ -43,4 +44,3 @@ I built the team from 5 to 45 members, scaled from 1 country to 13, and drove te
 <a href="https://www.marketwatch.com/story/visa-amazon-announce-worldwide-payment-agreement-01645098250?">2022 Feb 17 - Visa, Amazon announce worldwide payment agreement</a>
 
 
-### What can we do for you?

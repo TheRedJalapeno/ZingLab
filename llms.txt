@@ -1,0 +1,48 @@
+---
+layout: null
+sitemap: false
+permalink: /llms.txt
+---
+# ZingLab
+
+> ZingLab is an independent research and development lab and software studio founded by Robert Allen, MBA (former Amazon and Discover Financial Services marketing operations leader). ZingLab builds free and privacy-first web apps — including the HotGato speed reader and the Zoetrope GIF and pixel art animator — memory training tools, browser games, cognitive health research tools, physical products, and science fiction books, and provides website, web app, and marketing operations services to clients.
+
+Contact: {{ site.email }}. Website: {{ site.url }}/
+
+## Web apps
+
+- [HotGato Speed Reader](https://hotgato.com): Free, open-source RSVP speed reader. Runs entirely in the browser (works offline; files never leave the device). Imports TXT, PDF, DOCX, EPUB, RTF, ODT, HTML and Markdown. Adjustable WPM, chunk size and punctuation pauses; Bionic and dyslexia-friendly fonts; listen mode. Also available as a Chrome extension, Firefox add-on and LibreOffice integration. Business and enterprise licensing available.
+- [Zoetrope GIF Animator](https://zoetrope.zinglab.com): In-browser pixel art creator, GIF editor and pixel art animator. Nothing is uploaded. Free tier has no watermark and no account. Exports GIF, APNG, animated WebP, PNG, SVG, sprite sheets with Aseprite JSON, MP4/WebM. Pro: $9.99/quarter, $29.99/year or $49.99 lifetime.
+- [GlyphRecall Memory Trainer](https://glyph.zinglab.com): Free, untimed short-term memory game using glyph sets and arithmetic distractors; no account required.
+- [VART cognitive screening](https://vart.zinglab.com): Free, anonymous, non-clinical visual acuity and reaction-time screening informed by Loughborough University research. Not a diagnosis.
+- [Human Journey](https://humanjourney.zinglab.com): Interactive globe playback of ~500,000 years of human fossils, burials, tools and art using Paleobiology Database data; supports custom CSV uploads.
+- [TheSaurus Online](https://thesaurusonline.org): Dinosaur-themed online thesaurus.
+- [Texas Comicon](https://texascomicon.com): Directory of Texas comic cons, gaming and tech conventions filterable by month and city.
+- [AiryChat AI](https://airychat.com): Business AI assistants with file processing, long-term memory and voice mode.
+
+## Games
+
+- [Dungeon of the Mists](https://openfantasy.org): Browser roguelike dungeon crawler inspired by Castle of the Winds, with companions, lore, leaderboards and cloud saves.
+- [To The Victor](https://tothevictorgame.com): Online multiplayer conquest strategy game for 2–6 players; no dice, about 30 minutes per match, four ways to win.
+- [oBalls](https://oballs.com): Casual browser physics games.
+
+## Services
+
+- Website and web app development
+- Marketing operations, marketing technology, and product launch marketing ([portfolio]({{ '/portfolio/' | absolute_url }}))
+- Research collaborations in cognitive science and microbiome research ([research]({{ '/research/' | absolute_url }}))
+
+## Blog
+{% assign blog = site.posts | where: "type", "blog" %}{% for post in blog %}
+- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.description }}{% endfor %}
+
+## Other pages
+
+- [About]({{ '/about/' | absolute_url }})
+- [Portfolio]({{ '/portfolio/' | absolute_url }})
+- [Websites and web apps]({{ '/websites/' | absolute_url }})
+- [Games]({{ '/games/' | absolute_url }})
+- [Projects and browser extensions]({{ '/projects/' | absolute_url }})
+- [Books by Robert Willnow]({{ '/books/' | absolute_url }})
+- [Nested Hex screwdriver adapter]({{ '/nestedhex/' | absolute_url }})
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }})

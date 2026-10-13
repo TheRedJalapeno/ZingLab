@@ -1,24 +1,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---->
-    <meta property="url" content="{{ page.permalink | default: page.url | relative_url | absolute_url }}">
-    <meta property="og:url" content="{{ page.permalink | default: page.url | relative_url | absolute_url }}">
-
-    <meta property="title" content="{{ page.title }}">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="description" content="{{ page.description }}">
-    <meta property="og:description" content="{{ page.description }}">
-    <meta name="twitter:description" content="{{ page.description }}">
+    <title>{{ page.title | default: site.title }}</title>
+    {%- if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
-    <!---->
-    <meta name="author" content="ZingLab Technology Services">
-    <meta name="robots" content="index, follow">
-    <meta property="og:image" content="{{ page.image | relative_url | absolute_url }}">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ page.image | relative_url | absolute_url }}">
+    {%- endif %}
+    <meta name="robots" content="{% if page.noindex %}noindex, follow{% else %}index, follow, max-image-preview:large, max-snippet:-1{% endif %}">
+
+    <!-- SEO: canonical, Open Graph, Twitter cards, JSON-LD (jekyll-seo-tag) -->
+    {% seo title=false %}
+    {%- if page.last_modified_at %}
+    <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
+    {%- endif %}
+
+    {%- if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ZingLab",
+      "url": "{{ site.url }}/",
+      "logo": "{{ site.logo | absolute_url }}",
+      "email": "{{ site.email }}",
+      "founder": { "@type": "Person", "name": "Robert Allen", "url": "{{ '/about/' | absolute_url }}" },
+      "sameAs": {{ site.social.links | jsonify }},
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "HotGato Speed Reader", "url": "https://hotgato.com", "applicationCategory": "EducationalApplication" } },
+        { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "Zoetrope GIF Animator", "url": "https://zoetrope.zinglab.com", "applicationCategory": "MultimediaApplication" } },
+        { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "GlyphRecall Memory Trainer", "url": "https://glyph.zinglab.com", "applicationCategory": "GameApplication" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website and web app development" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Marketing operations and marketing technology consulting" } }
+      ]
+    }
+    </script>
+    {%- endif %}
+
+    {%- if page.faq %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for item in page.faq %}
+        { "@type": "Question", "name": {{ item.q | jsonify }}, "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | jsonify }} } }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+    </script>
+    {%- endif %}
+
+    <!-- Feeds and machine-readable indexes -->
+    {% feed_meta %}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
+    <link rel="alternate" type="text/plain" title="LLM-friendly site index" href="{{ '/llms.txt' | relative_url }}">
 
     <!-- Favicon -->
     <link rel="icon" href="{{ "/assets/favicon.png" | relative_url }}" type="image/png">
@@ -32,7 +66,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YRFZ6SBHS"></script>
     <script>
@@ -42,6 +76,4 @@
 
         gtag('config', 'G-8YRFZ6SBHS');
     </script>
-
-    <title>{{ page.title }}</title>
 </head>

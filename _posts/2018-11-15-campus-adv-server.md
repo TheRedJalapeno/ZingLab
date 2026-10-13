@@ -2,10 +2,12 @@
 layout: post
 title: "Campus Advantage Server Fix"
 type: portfolio
+client: "Campus Advantage"
+featured: 1
 description: "Improved client site uptime from 94% to 99.9% while reducing costs by $50k/y."
 keywords: "marketing technology, change management"
 image: "/assets/logo_campusadv.webp"
-date: 2018-10-15
+date: 2018-11-15
 author: "Robert Allen"
 permalink: /portfolio/campus-adv-server/
 ---
@@ -19,4 +21,3 @@ Prior to the move, I noticed the databases were severely overbloated. Turns out 
 
 
 
-### What can we do for you?

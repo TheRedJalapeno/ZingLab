@@ -2,6 +2,7 @@
 layout: post
 title: "Amazon Key for Business"
 type: portfolio
+client: "Amazon"
 description: "Amazon Key for Business product launch. This marketing campaign launched the b2b side of Amazon Key, aimed at letting Amazon drivers deliver packages to mail rooms 24/7 instead of just when the office is open."
 keywords: "email marketing, digital marketing, go to market, product launch, national campaign, good morning america, amazon, amazon key"
 image: "/assets/portfolio/amazon-key-business-email-2.jpg"
@@ -30,4 +31,3 @@ Based on the incredible success of our Marketo pilot program, within three month
 
 
 
-### What can we do for you?

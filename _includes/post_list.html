@@ -1,0 +1,29 @@
+{%- comment -%}
+  Card grid of posts for one listing page.
+
+  Usage: {% include post_list.html type="blog" %}
+         {% include post_list.html type="portfolio" client="Amazon" %}
+
+  Ordering:
+    1. Pinned posts first — any post with `featured: <number>` in its front matter,
+       sorted ascending (featured: 1 is the very top, then 2, 3 ...).
+    2. Everything else, newest first.
+  Remove the `featured` line (or set it to false) to unpin a post.
+{%- endcomment -%}
+{%- assign all = site.posts | where: "type", include.type -%}
+{%- if include.client -%}{%- assign all = all | where: "client", include.client -%}{%- endif -%}
+{%- if include.topic -%}{%- assign all = all | where: "topic", include.topic -%}{%- endif -%}
+{%- assign pinned = all | where_exp: "p", "p.featured" | sort: "featured" -%}
+<div class="post-grid">
+  {%- if all.size == 0 -%}
+  <p>Nothing here yet — check back soon.</p>
+  {%- endif -%}
+  {%- for post in pinned -%}
+    {%- include post_card.html post=post pinned=true -%}
+  {%- endfor -%}
+  {%- for post in all -%}
+    {%- unless post.featured -%}
+      {%- include post_card.html post=post -%}
+    {%- endunless -%}
+  {%- endfor -%}
+</div>

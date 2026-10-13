@@ -2,6 +2,7 @@
 layout: post
 title: "Campus Advantage Landing Page Templates"
 type: portfolio
+client: "Campus Advantage"
 description: "These four landing page templates showcase the most unique elements we sold to clients."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-landing-page-template-1-lifestyle.jpg"
@@ -23,4 +24,3 @@ Similar to the Home Page project, the agency wanted five highly modular and flex
 
 
 
-### What can we do for you?

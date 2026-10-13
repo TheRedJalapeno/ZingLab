@@ -2,6 +2,7 @@
 layout: post
 title: "Campus Advantage Home Page Templates"
 type: portfolio
+client: "Campus Advantage"
 description: "As part of the portfolio refresh initiative, we wanted to sell new home pages to new and existing clients."
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-homepage-template-2-lifestyle.jpg"
@@ -23,4 +24,3 @@ As part of the portfolio refresh initiative, we wanted to sell new home pages to
 
 
 
-### What can we do for you?

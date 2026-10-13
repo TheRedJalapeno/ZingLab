@@ -2,10 +2,11 @@
 layout: post
 title: "Origin of Language"
 type: blog
+topic: "Essays"
 description: "An exploration of focal emotional language and how it forms the basis of all communication."
 keywords: "language, origin, communication, focal emotional language, animals"
 permalink: /blog/focal-emotional-language/
-image: "/assets/2025_focal_language.png"
+image: "/assets/zinglab.png"
 date: 2018-05-05
 author: "Robert Allen"
 ---
@@ -32,9 +33,3 @@ As for humans, nobody knows. Odds are our earliest language existed long before 
 *Originally written for Quora in 2018:*
 - [Mom is the first word ever uttered by a human](https://www.quora.com/Mom-is-the-first-word-ever-uttered-by-a-human-long-long-ago-What-is-the-second-word-of-humanity/answer/Robert-D-Allen-MBA)
 - [Do animals like us?](https://www.quora.com/Do-animals-like-us/answer/Robert-D-Allen-MBA)
-
----
-
-## About the Author
-
-{% include about_robert.html %}
