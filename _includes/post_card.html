@@ -11,6 +11,7 @@
   <p class="card-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% if post.topic %} · {{ post.topic }}{% endif %}</p>
   {%- endif %}
   <p>{{ post.description }}</p>
+  <div class="card-links">
   <a class="cardlink" href="{{ post.url | relative_url }}">{% if post.type == "blog" %}Read more{% else %}Details{% endif %}</a>
   {%- if post.livelink and post.livelink != "" %}
   <a class="cardlink" href="{{ post.livelink }}" target="_blank" rel="noopener">See it live</a>
@@ -18,4 +19,5 @@
   {%- if post.githublink and post.githublink != "" %}
   <a class="cardlink" href="{{ post.githublink }}" target="_blank" rel="noopener">GitHub</a>
   {%- endif %}
+  </div>
 </article>

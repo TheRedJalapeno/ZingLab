@@ -1,4 +1,4 @@
-<footer>
+<footer class="site-footer">
 
     <!-- Hiring Section 
     <section id="hiring" class="hiring">
@@ -7,54 +7,70 @@
     </section>
     -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact flexbox-array">
-        <span>
-            <h1>Contact Us</h1>
-            <p>
-                <a href="mailto:info@zinglab.com">
-                    <span>info</span>@<span>ZingLab.com</span>
-                </a>
-            </p>
-        </span>
-        <nav class="left footer-nav" aria-label="Site">
-            <ul class="flexbox-array">
-                <li><a href="/">Home</a></li>
+    <div id="contact" class="footer-inner">
+
+        <section class="footer-brand">
+            <a class="footer-logo" href="/">ZingLab</a>
+            <p>Independent R&amp;D lab and software studio. We build privacy-first web apps, games, and research
+                tools — and websites and marketing technology for clients.</p>
+            <a class="footer-email" href="mailto:info@zinglab.com">
+                <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+                <span>info</span>@<span>ZingLab.com</span>
+            </a>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/robertdallenmba/" target="_blank" rel="noopener"><img src="/assets/logo_linkedin.webp" alt="ZingLab founder on LinkedIn" width="22" height="22"></a>
+                <a href="https://github.com/TheRedJalapeno" target="_blank" rel="noopener"><img src="/assets/logo_github.svg" alt="ZingLab on GitHub" width="22" height="22"></a>
+                <a href="https://www.crunchbase.com/person/robert-allen-55cf" target="_blank" rel="noopener"><img src="/assets/logo_crunchbase.webp" alt="ZingLab founder on Crunchbase" width="22" height="22"></a>
+            </div>
+        </section>
+
+        <nav class="footer-col" aria-labelledby="footer-explore">
+            <h2 id="footer-explore">Explore</h2>
+            <ul>
                 <li><a href="/about/">About</a></li>
                 <li><a href="/blog/">Blog</a></li>
-                <li><a href="/portfolio/">Portfolio</a></li>
-                <li><a href="/websites/">Websites</a></li>
+                <li><a href="/portfolio/">Client Portfolio</a></li>
+                <li><a href="/websites/">Websites &amp; Web Apps</a></li>
                 <li><a href="/games/">Games</a></li>
-                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/projects/">Extensions &amp; Tools</a></li>
                 <li><a href="/research/">Research</a></li>
                 <li><a href="/books/">Books</a></li>
                 <li><a href="/nestedhex/">Nested Hex</a></li>
                 <!-- <li><a href="/careers/">Careers</a></li> -->
             </ul>
         </nav>
-        <nav class="left footer-nav" aria-label="Our apps">
-            <ul class="flexbox-array">
-                <li><a href="https://hotgato.com/?ref=zinglab">HotGato Speed Reader</a></li>
-                <li><a href="https://zoetrope.zinglab.com">Zoetrope GIF Animator</a></li>
-                <li><a href="https://glyph.zinglab.com">GlyphRecall Memory Trainer</a></li>
-                <li><a href="https://vart.zinglab.com">VART Cognitive Screening</a></li>
-                <li><a href="https://humanjourney.zinglab.com">Human Journey</a></li>
-                <li><a href="https://openfantasy.org">Dungeon of the Mists</a></li>
-                <li><a href="https://tothevictorgame.com">To The Victor</a></li>
+
+        <nav class="footer-col footer-apps" aria-labelledby="footer-apps">
+            <h2 id="footer-apps">Our Apps <span class="footer-note">External sites</span></h2>
+            <ul>
+                {%- assign apps = "HotGato Speed Reader|hotgato.com|https://hotgato.com/?ref=zinglab;Zoetrope GIF Animator|zoetrope.zinglab.com|https://zoetrope.zinglab.com;GlyphRecall Memory Trainer|glyph.zinglab.com|https://glyph.zinglab.com;VART Cognitive Screening|vart.zinglab.com|https://vart.zinglab.com;Human Journey|humanjourney.zinglab.com|https://humanjourney.zinglab.com;Dungeon of the Mists|openfantasy.org|https://openfantasy.org;To The Victor|tothevictorgame.com|https://tothevictorgame.com" | split: ";" -%}
+                {%- for app in apps -%}
+                {%- assign a = app | split: "|" %}
+                <li>
+                    <a href="{{ a[2] }}" rel="noopener">
+                        <span class="app-name">{{ a[0] }}<span class="material-symbols-outlined" aria-hidden="true">arrow_outward</span></span>
+                        <span class="app-domain">{{ a[1] }}<span class="visually-hidden"> (external site)</span></span>
+                    </a>
+                </li>
+                {%- endfor %}
             </ul>
         </nav>
-    </section>
 
-    <!-- Copyright & machine-readable links -->
-    <section id="copyright" class="copyright">
-        <p class="footer-meta">
-            <a href="/sitemap.xml">Sitemap</a> ·
-            <a href="/feed.xml">RSS</a> ·
-            <a href="/llms.txt">llms.txt</a> ·
-            <a href="/privacy/">Privacy</a> ·
-            <a href="/terms-of-use/">Terms</a>
-        </p>
+        <nav class="footer-col" aria-labelledby="footer-resources">
+            <h2 id="footer-resources">Resources</h2>
+            <ul>
+                <li><a href="/sitemap.xml">Sitemap</a></li>
+                <li><a href="/feed.xml">RSS Feed</a></li>
+                <li><a href="/llms.txt">llms.txt</a></li>
+                <li><a href="/privacy/">Privacy Policy</a></li>
+                <li><a href="/terms-of-use/">Terms of Use</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="footer-bottom">
         <p>&copy; {{ site.time | date: "%Y" }} ZingLab. All rights reserved.</p>
-    </section>
+    </div>
 
 </footer>
