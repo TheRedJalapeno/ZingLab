@@ -29,8 +29,15 @@ Contact: {{ site.email }}. Website: {{ site.url }}/
 
 ## Services
 
-- Website and web app development
-- Marketing operations, marketing technology, and product launch marketing ([portfolio]({{ '/portfolio/' | absolute_url }}))
+ZingLab takes on client projects, led directly by founder Robert Allen (former marketing operations and marketing technology leader at Amazon and Discover Financial Services). Based in Melbourne, Florida; works with clients worldwide. Contact info@zinglab.com.
+
+- Custom web app development: dashboards, portals, internal tools, SaaS products
+- Websites and landing pages: fast, SEO- and AI-search-ready marketing sites
+- Marketing technology and operations: CRM, marketing automation, ad platform and analytics integration
+- AI integrations: document-grounded chatbots, in-product AI features, MCP servers for AI agents
+- APIs, data pipelines, and system integrations
+- Website rescue: performance, hosting, uptime, and cost reduction
+- Product launch marketing case studies: [portfolio]({{ '/portfolio/' | absolute_url }})
 - Research collaborations in cognitive science and microbiome research ([research]({{ '/research/' | absolute_url }}))
 
 ## Blog
