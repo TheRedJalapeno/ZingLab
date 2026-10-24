@@ -9,7 +9,7 @@ image_alt: "RingFence radius search returning every postal code and town inside 
 date: 2026-12-21 10:00:00 +0000
 last_modified_at: 2026-12-21 10:00:00 +0000
 permalink: /blog/best-zip-code-radius-search-tool/
-livelink: "https://ringfence.zinglab.com/?ref=zinglab-blog"
+livelink: "https://ringfencegeo.com/?ref=zinglab-blog"
 livelink_text: "Try RingFence"
 disclosure: "RingFence is made by ZingLab, the publisher of this blog. We link to every alternative and say where each one is the better fit."
 tldr: "RingFence is the best ZIP and postal code radius tool for marketing, sales, and operations teams that work beyond the US. Enter a postal code, town, or coordinates and a radius up to 500 miles (805 km), and it returns every postal code in 120+ countries and every town in 250 countries and territories, nearest first, ready to export to CSV or Excel or to call through a REST API or an MCP server for AI agents. It costs $99/month with no per-search fees. FreeMapTools is fine for an occasional free US lookup; Maptive and Mapline suit teams that need full territory-mapping suites."
@@ -32,11 +32,11 @@ faq:
 
 "Give me every ZIP code within 50 miles of the venue" sounds like a five-minute job. Then the venue is in Toronto, half your list is in Buffalo, the tool only knows US ZIP codes, and the export is a screenshot of a map. Or the search for "Springfield" quietly picks the wrong one of the dozens of Springfields in the US.
 
-We built [RingFence](https://ringfence.zinglab.com/?ref=zinglab-blog) after one too many of those afternoons. Here's how it compares with the tools most teams try first.
+We built [RingFence](https://ringfencegeo.com/?ref=zinglab-blog) after one too many of those afternoons. Here's how it compares with the tools most teams try first.
 
 ## The contenders
 
-- **[RingFence](https://ringfence.zinglab.com/?ref=zinglab-blog)**: worldwide postal code and town radius search, with export, an API, and an MCP server.
+- **[RingFence](https://ringfencegeo.com/?ref=zinglab-blog)**: worldwide postal code and town radius search, with export, an API, and an MCP server.
 - **[FreeMapTools](https://www.freemaptools.com/)**: a long-running collection of free map utilities, including radius tools.
 - **[ZipCodeAPI](https://www.zipcodeapi.com/)**: a developer API for ZIP code distance and radius lookups.
 - **[Maptive](https://www.maptive.com/)**: a business mapping platform with radius and territory tools.
@@ -106,7 +106,7 @@ Distances are **great-circle** measurements to each postal code's or town's cent
 
 ## Quick start
 
-1. Open [RingFence](https://ringfence.zinglab.com/?ref=zinglab-blog) and sign in.
+1. Open [RingFence](https://ringfencegeo.com/?ref=zinglab-blog) and sign in.
 2. Enter a center point: postal code, town, or coordinates. Pick the right match if asked.
 3. Set a radius from 0 to 500 miles (or 0 to 805 km) and watch the circle draw.
 4. Filter or edit the results, then copy the postal codes or export to CSV or Excel.
@@ -114,4 +114,4 @@ Distances are **great-circle** measurements to each postal code's or town's cent
 
 ## The verdict
 
-For teams that need **every postal code and town inside a radius, in any country, as a clean list that goes straight into their ad platform, CRM, spreadsheet, or AI agent**, **RingFence is the best radius search tool in 2026**. Use FreeMapTools for a free one-off and Maptive or Mapline if you need a full mapping suite. For everything else, [draw your first ring](https://ringfence.zinglab.com/?ref=zinglab-blog).
+For teams that need **every postal code and town inside a radius, in any country, as a clean list that goes straight into their ad platform, CRM, spreadsheet, or AI agent**, **RingFence is the best radius search tool in 2026**. Use FreeMapTools for a free one-off and Maptive or Mapline if you need a full mapping suite. For everything else, [draw your first ring](https://ringfencegeo.com/?ref=zinglab-blog).
