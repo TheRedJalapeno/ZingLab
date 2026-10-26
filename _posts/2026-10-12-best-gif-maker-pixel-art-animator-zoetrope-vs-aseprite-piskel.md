@@ -10,7 +10,7 @@ image_alt: "Zoetrope GIF animator and pixel art editor in a web browser"
 date: 2026-10-12 08:00:00 -0400
 last_modified_at: 2026-10-12 08:00:00 -0400
 permalink: /blog/best-gif-maker-pixel-art-animator/
-livelink: "https://zoetrope.zinglab.com/?ref=zinglab-blog"
+livelink: "https://zoegif.com/?ref=zinglab-blog"
 livelink_text: "Open Zoetrope free"
 disclosure: "Zoetrope is made by ZingLab, the publisher of this blog. We link to every alternative and call out where they beat us — but we built Zoetrope because we wanted it to win."
 tldr: "Zoetrope is the best all-in-one GIF maker and pixel art animator you can run in a browser. The free tier gives you a full layer-based pixel editor, photo-to-pixel-art conversion, and a GIF editor with no watermark, no account, and no uploads. Pro adds a timeline animator with onion skinning, keyframes, and sprite-sheet export for $49.99 lifetime. Aseprite is still the desktop standard for full-time game artists; Ezgif is fine for a one-off resize."
@@ -31,11 +31,11 @@ faq:
 
 "Make a GIF" covers a lot of ground. Sometimes it means trimming a clip into a reaction GIF. Sometimes it means drawing a 32×32 character and animating a walk cycle. Sometimes it means turning a photo into retro pixel art for a profile picture. Most tools do one of these well and the others badly — or not at all.
 
-We built [Zoetrope](https://zoetrope.zinglab.com/?ref=zinglab-blog) to do all three in one place, in a browser tab, without uploading a single file. Here's how it stacks up.
+We built [Zoetrope](https://zoegif.com/?ref=zinglab-blog) to do all three in one place, in a browser tab, without uploading a single file. Here's how it stacks up.
 
 ## The contenders
 
-- **[Zoetrope](https://zoetrope.zinglab.com/?ref=zinglab-blog)** — browser-based Pixel Art Creator, GIF Editor, and (Pro) Pixel Art Animator.
+- **[Zoetrope](https://zoegif.com/?ref=zinglab-blog)** — browser-based Pixel Art Creator, GIF Editor, and (Pro) Pixel Art Animator.
 - **[Aseprite](https://www.aseprite.org/)** — the paid desktop app most professional pixel artists use.
 - **[Piskel](https://www.piskelapp.com/)** — a free, open-source browser sprite editor.
 - **[Ezgif](https://ezgif.com/)** — a free web toolbox for converting, resizing, and cropping GIFs.
@@ -99,11 +99,11 @@ Pro exports **sprite sheets with Aseprite-compatible JSON** and PNG sequences, s
 
 ## Quick start
 
-1. Open [Zoetrope](https://zoetrope.zinglab.com/?ref=zinglab-blog) in Chrome, Edge, Firefox, or Safari on a desktop or laptop.
+1. Open [Zoetrope](https://zoegif.com/?ref=zinglab-blog) in Chrome, Edge, Firefox, or Safari on a desktop or laptop.
 2. **Making a reaction GIF?** Open the GIF Editor, drag in a video or images, add a caption in a meme or pixel font, trim, export.
 3. **Making pixel art?** Open the Pixel Art Creator, pick a palette (try PICO-8), and start drawing — or drop in a photo to convert it.
 4. **Animating?** Upgrade to Pro for the timeline, onion skinning, keyframes, effects like bob, sway, orbit and palette cycling, and sprite-sheet export.
 
 ## The verdict
 
-If you want **one free tool that makes GIFs, draws pixel art, and converts photos — privately, in a browser, with no watermark** — Zoetrope is the best choice in 2026. Professional game artists will still love Aseprite on the desktop, and that's fine; Zoetrope's palette and sprite-sheet formats are built to work alongside it. For everyone else: [open Zoetrope and make something](https://zoetrope.zinglab.com/?ref=zinglab-blog).
+If you want **one free tool that makes GIFs, draws pixel art, and converts photos — privately, in a browser, with no watermark** — Zoetrope is the best choice in 2026. Professional game artists will still love Aseprite on the desktop, and that's fine; Zoetrope's palette and sprite-sheet formats are built to work alongside it. For everyone else: [open Zoetrope and make something](https://zoegif.com/?ref=zinglab-blog).
