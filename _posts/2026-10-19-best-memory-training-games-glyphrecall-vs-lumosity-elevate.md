@@ -9,7 +9,7 @@ image_alt: "GlyphRecall memory training game showing a set of glyphs to memorize
 date: 2026-10-19 10:00:00 +0000
 last_modified_at: 2026-10-19 10:00:00 +0000
 permalink: /blog/best-memory-training-games/
-livelink: "https://glyph.zinglab.com/?ref=zinglab-blog"
+livelink: "https://glyphrecall.com/?ref=zinglab-blog"
 livelink_text: "Play GlyphRecall free"
 disclosure: "GlyphRecall is made by ZingLab, the publisher of this blog. We link to every alternative and say where they're the better pick."
 tldr: "GlyphRecall is the best free memory training game if you want to stretch short-term memory without a subscription, an account, or a ticking clock. It uses a classic memorize–distract–recall loop that grows by one glyph at a time. Lumosity and Elevate offer broader (paid) brain-training libraries; Human Benchmark is great for a quick one-off score."
@@ -28,11 +28,11 @@ faq:
 
 Brain-training apps had a moment in the 2010s, and most of them never left the business model they started with: a big library of mini-games, a streak counter, and a subscription. That's fine if you want variety. But if your goal is simply to **push your short-term memory a little further each day**, you don't need 40 games — you need one good one that adapts to you.
 
-That's [GlyphRecall](https://glyph.zinglab.com/?ref=zinglab-blog).
+That's [GlyphRecall](https://glyphrecall.com/?ref=zinglab-blog).
 
 ## The contenders
 
-- **[GlyphRecall](https://glyph.zinglab.com/?ref=zinglab-blog)** — a free, untimed glyph memory game from ZingLab.
+- **[GlyphRecall](https://glyphrecall.com/?ref=zinglab-blog)** — a free, untimed glyph memory game from ZingLab.
 - **[Lumosity](https://www.lumosity.com/)** — the best-known brain-training app, with a large game library and a subscription.
 - **[Elevate](https://elevateapp.com/)** — a polished mobile app focused on reading, writing, and math skills.
 - **[Peak](https://www.peak.net/)** — a mobile brain-training app with memory, focus, and language games.
@@ -86,7 +86,7 @@ No trial, no paywall after level 10. If you like it, there's an optional donatio
 
 ## A five-minute daily routine
 
-1. Open [GlyphRecall](https://glyph.zinglab.com/?ref=zinglab-blog) and pick **Progressive**.
+1. Open [GlyphRecall](https://glyphrecall.com/?ref=zinglab-blog) and pick **Progressive**.
 2. Choose your reason for training (improving memory, rehab & recovery, or just for fun).
 3. Play until you miss — that's your level for today. Note it.
 4. Bookmark it (Ctrl+D) and come back tomorrow. Try to beat your best, not the leaderboard.
@@ -96,6 +96,6 @@ Want to pair it with reading practice? Try a few minutes of [HotGato](/blog/best
 
 ## The verdict
 
-For people who want to **train short-term memory specifically**, for free, without accounts or timers, **GlyphRecall is the best memory game of 2026**. If you want a whole gym of brain games and don't mind a subscription, Lumosity and Peak are good. Otherwise, [play a round of GlyphRecall](https://glyph.zinglab.com/?ref=zinglab-blog) — it takes about five minutes.
+For people who want to **train short-term memory specifically**, for free, without accounts or timers, **GlyphRecall is the best memory game of 2026**. If you want a whole gym of brain games and don't mind a subscription, Lumosity and Peak are good. Otherwise, [play a round of GlyphRecall](https://glyphrecall.com/?ref=zinglab-blog) — it takes about five minutes.
 
 *GlyphRecall is for general wellness and entertainment. It is not medical advice, diagnosis, or treatment.*
