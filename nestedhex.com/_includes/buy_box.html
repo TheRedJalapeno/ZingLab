@@ -1,0 +1,16 @@
+{%- comment -%} In-page purchase block. Optional: heading, ref {%- endcomment -%}
+<aside class="buy-box">
+    <img src="/assets/img/nested_hex_sticker.webp" alt="Nested Hex adapter 3 pack" loading="lazy" width="96" height="96">
+    <div class="buy-box-text">
+        <h2>{{ include.heading | default: "Get the Nested Hex 3 pack" }}</h2>
+        <ul>
+            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span>Fits 4mm precision bits into your magnetic screwdriver</li>
+            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span>Made in America by a family-owned business</li>
+            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span>Free shipping within the US</li>
+        </ul>
+    </div>
+    <a class="btn-buy" href="{% include buy_link.html ref=include.ref %}" target="_blank" rel="noopener">
+        <span class="material-symbols-outlined" aria-hidden="true">shopping_bag</span>Buy Direct
+    </a>
+    <p class="buy-box-note"><span class="material-symbols-outlined" aria-hidden="true">lock</span>Secure checkout by Stripe. Buying direct skips marketplace fees, and that makes a huge difference to us.</p>
+</aside>

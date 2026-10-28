@@ -1,0 +1,154 @@
+---
+title: "Nested Hex | 4mm Precision Bit Adapter for Magnetic Screwdrivers"
+description: "Use 4mm precision screwdriver bits in the magnetic screwdriver you love. A 3 pack of ultra-tough orange adapters, made in America by a family-owned business. Free US shipping."
+keywords: "4mm bit adapter, precision bit adapter, 4mm hex to screwdriver adapter, precision screwdriver bit holder, magnetic screwdriver adapter, 4mm hex bit adapter, small screwdriver bits, electronics repair tools, made in USA tools"
+image: "/assets/img/nested_hex_sticker.webp"
+layout: default
+ref: home
+product_schema: true
+faq:
+  - q: "What does Nested Hex do?"
+    a: "Nested Hex is an adapter that lets 4mm precision screwdriver bits, the small bits that come in electronics and repair kits, fit in your standard magnetic screwdriver."
+  - q: "How many adapters come in a pack?"
+    a: "Three, in unmissable radiant orange so they're easy to find on a bench or in a drawer."
+  - q: "Will the bit stay in?"
+    a: "Yes. Nested Hex is designed for full magnetic retention, and it's easy to use and remove."
+  - q: "Where is Nested Hex made?"
+    a: "Designed and made in America by a family-owned business. It's patent pending (19/643,254)."
+  - q: "How much is shipping?"
+    a: "Shipping is free within the US."
+  - q: "Can I buy Nested Hex on Amazon or Walmart?"
+    a: "Not yet; marketplace listings are coming soon. Buying direct from nestedhex.com is the best way to buy, because it skips the marketplace fees and that makes a huge difference to a small family business."
+---
+
+<section class="nh">
+
+  <!-- Gallery -->
+  <div class="nh-gallery">
+    <button type="button" class="nh-main" id="nhMainBtn" aria-label="Enlarge photo">
+      <img id="mainImg" src="/assets/img/nested_hex_sticker.webp" alt="Nested Hex Adapter" width="600" height="600">
+      <span class="material-symbols-outlined nh-zoom" aria-hidden="true">zoom_in</span>
+    </button>
+
+    <div class="nh-thumbs" role="list" aria-label="Product photos">
+      <img role="listitem" src="/assets/img/nested_hex_sticker.webp" alt="Nested Hex sticker" loading="lazy" class="thumbnail" tabindex="0">
+      <img role="listitem" src="/assets/img/IMG_9138.webp" alt="Nested Hex packaging 5" loading="lazy" class="thumbnail" tabindex="0">
+      <img role="listitem" src="/assets/img/index.webp" alt="Nested Hex packaging 0" loading="lazy" class="thumbnail" tabindex="0">
+      <img role="listitem" src="/assets/img/IMG_9587.webp" alt="Nested Hex packaging 1" loading="lazy" class="thumbnail" tabindex="0">
+      <img role="listitem" src="/assets/img/IMG_9588.webp" alt="Nested Hex packaging 2" loading="lazy" class="thumbnail" tabindex="0">
+      <img role="listitem" src="/assets/img/IMG_9589.webp" alt="Nested Hex packaging 3" loading="lazy" class="thumbnail" tabindex="0">
+      <img role="listitem" src="/assets/img/IMG_9590.webp" alt="Nested Hex packaging 4" loading="lazy" class="thumbnail" tabindex="0">
+    </div>
+  </div>
+
+  <!-- Details -->
+  <div class="nh-info">
+    <h1>Nested Hex Adapter</h1>
+    <p class="nh-tagline">"Use 4mm precision screwdriver bits in your standard magnetic screwdriver"</p>
+
+    <p class="badges">
+      <span><span class="material-symbols-outlined" aria-hidden="true">flag</span>Made in America</span>
+      <span><span class="material-symbols-outlined" aria-hidden="true">local_shipping</span>Free US shipping</span>
+    </p>
+
+    <a class="btn-buy" href="{% include buy_link.html ref='home-hero' %}" target="_blank" rel="noopener">
+      <span class="material-symbols-outlined" aria-hidden="true">shopping_bag</span>Buy Direct (best)
+    </a>
+    <p class="nh-soon">Amazon (soon) · Walmart (soon)</p>
+
+    <p class="nh-desc">Use 4mm precision screwdriver bits in your standard magnetic screwdriver you love. This 3 pack
+      of adapters in unmissable orange ultra-tough polymer should last a lifetime under normal conditions.</p>
+
+    {% include features.html %}
+
+    <aside class="nh-note">
+      <p>Designed in America, Made in America, by a Family-owned Business. By purchasing directly from us, we skip
+        the marketplace fees from the big guys, and that makes a huge difference to us.</p>
+      <p><strong>From my family to yours, thank you!</strong></p>
+    </aside>
+  </div>
+</section>
+
+<!-- Use cases -->
+<section class="home-section">
+  <h2>Made for small screws and the people who fix things</h2>
+  <div class="use-grid">
+    {%- assign uses = site.pages | where: "layout", "sales" | sort: "order" -%}
+    {%- for p in uses %}
+    <a class="use-card" href="{{ p.url | relative_url }}">
+      <span class="material-symbols-outlined" aria-hidden="true">{{ p.icon }}</span>
+      <strong>{{ p.nav_title }}</strong>
+      <span>{{ p.card_text }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+
+<!-- Guides -->
+<section class="home-section">
+  <h2>Guides</h2>
+  <ul class="guide-list">
+    {%- for post in site.posts limit: 4 %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {%- endfor %}
+  </ul>
+  <p><a class="text-link" href="/blog/">All guides →</a></p>
+</section>
+
+<!-- FAQ -->
+<section class="home-section faq">
+  <h2>Questions</h2>
+  {%- for item in page.faq %}
+  <details>
+    <summary>{{ item.q }}</summary>
+    <p>{{ item.a }}</p>
+  </details>
+  {%- endfor %}
+</section>
+
+<section class="home-section">
+  {% include buy_box.html ref="home-bottom" heading="Ready when your screwdriver is" %}
+</section>
+
+<!-- Lightbox -->
+<div id="lb" class="nh-lightbox" hidden>
+  <button id="lbClose" type="button" aria-label="Close">✕</button>
+  <img id="lbImg" src="" alt="Enlarged product view">
+</div>
+
+<script>
+// Product gallery: thumbnails swap the main photo; main photo opens a full-screen lightbox
+(function () {
+  const mainImg = document.getElementById('mainImg');
+  const mainBtn = document.getElementById('nhMainBtn');
+  const lb      = document.getElementById('lb');
+  const lbImg   = document.getElementById('lbImg');
+  const thumbs  = document.querySelectorAll('.nh-thumbs .thumbnail');
+
+  function select(t) {
+    thumbs.forEach(function (x) { x.classList.remove('is-active'); });
+    t.classList.add('is-active');
+    mainImg.src = t.src;
+    mainImg.alt = t.alt;
+  }
+
+  thumbs.forEach(function (t) {
+    t.addEventListener('click', function () { select(t); });
+    t.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(t); }
+    });
+  });
+  if (thumbs.length) thumbs[0].classList.add('is-active');
+
+  function closeLb() { lb.hidden = true; document.body.style.overflow = ''; }
+  mainBtn.addEventListener('click', function () {
+    lbImg.src = mainImg.src;
+    lbImg.alt = mainImg.alt;
+    lb.hidden = false;
+    document.body.style.overflow = 'hidden';
+  });
+  document.getElementById('lbClose').addEventListener('click', closeLb);
+  lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !lb.hidden) closeLb(); });
+})();
+</script>

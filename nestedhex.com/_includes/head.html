@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>{{ page.title | default: site.title }}</title>
+    {%- if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {%- endif %}
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="theme-color" content="#ff6f00">
+
+    {% seo title=false %}
+
+    {%- if page.product_schema %}
+    {% include product_schema.html %}
+    {%- endif %}
+
+    {%- if page.faq %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for item in page.faq %}
+        { "@type": "Question", "name": {{ item.q | jsonify }}, "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | jsonify }} } }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+    </script>
+    {%- endif %}
+
+    {% feed_meta %}
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
+    <link rel="alternate" type="text/plain" title="LLM-friendly site index" href="{{ '/llms.txt' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
+
+    <!-- Versioned per build so CDN/browser caches pick up CSS changes immediately -->
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>

@@ -71,6 +71,7 @@ defaults:
 
 exclude:
   - 2024-deprecated/
+  - nestedhex.com/ # standalone NestedHex.com site, destined for its own repo
   - README.md
   - Gemfile
   - Gemfile.lock

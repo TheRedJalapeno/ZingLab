@@ -1,0 +1,59 @@
+---
+layout: default
+---
+{%- assign hero_ref = page.ref | append: '-hero' -%}
+{%- assign bottom_ref = page.ref | append: '-bottom' -%}
+<article class="sales">
+    <section class="sales-hero">
+        <div class="sales-hero-text">
+            <p class="eyebrow">{{ page.eyebrow }}</p>
+            <h1>{{ page.headline | default: page.title }}</h1>
+            <p class="sales-subhead">{{ page.subhead }}</p>
+            <a class="btn-buy" href="{% include buy_link.html ref=hero_ref %}" target="_blank" rel="noopener">
+                <span class="material-symbols-outlined" aria-hidden="true">shopping_bag</span>Buy Direct
+            </a>
+            <p class="badges">
+                <span><span class="material-symbols-outlined" aria-hidden="true">flag</span>Made in America</span>
+                <span><span class="material-symbols-outlined" aria-hidden="true">local_shipping</span>Free US shipping</span>
+            </p>
+        </div>
+        <img class="sales-hero-img" src="{{ page.hero_image | default: '/assets/img/nested_hex_sticker.webp' }}" alt="{{ page.hero_alt | default: 'Nested Hex adapter' }}" width="600" height="600">
+    </section>
+
+    {%- if page.benefits %}
+    <section class="benefits">
+        {%- for b in page.benefits %}
+        <div class="benefit">
+            <span class="material-symbols-outlined" aria-hidden="true">{{ b.icon }}</span>
+            <h2>{{ b.title }}</h2>
+            <p>{{ b.text }}</p>
+        </div>
+        {%- endfor %}
+    </section>
+    {%- endif %}
+
+    <section class="prose">
+        {{ content }}
+    </section>
+
+    <section class="prose">
+        <h2>What's in the pack</h2>
+        {% include features.html %}
+    </section>
+
+    {% include buy_box.html ref=bottom_ref heading=page.buy_heading %}
+
+    {%- if page.faq %}
+    <section class="faq">
+        <h2>Questions</h2>
+        {%- for item in page.faq %}
+        <details>
+            <summary>{{ item.q }}</summary>
+            <p>{{ item.a }}</p>
+        </details>
+        {%- endfor %}
+    </section>
+    {%- endif %}
+
+    {% include more_links.html %}
+</article>

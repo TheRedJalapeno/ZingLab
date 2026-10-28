@@ -1,0 +1,26 @@
+---
+title: "Nested Hex Guides: Precision Bits, Repair Tips & More"
+description: "Plain-English guides to precision screwdriver bits, small-screw repairs, and using 4mm precision bits in a standard magnetic screwdriver."
+keywords: "precision bit guide, screwdriver bit types, electronics repair tips, how to use precision bits"
+layout: default
+ref: blog
+permalink: /blog/
+---
+<section class="page-intro">
+    <h1>Guides</h1>
+    <p>How to choose the right precision bit, keep from stripping tiny screws, and get more out of the screwdriver you already own.</p>
+</section>
+
+<section class="guide-cards">
+    {%- for post in site.posts %}
+    <a class="guide-card" href="{{ post.url | relative_url }}">
+        <strong>{{ post.title }}</strong>
+        <span>{{ post.description }}</span>
+        <small>{{ post.date | date: "%B %-d, %Y" }}{% if post.read_time %} · {{ post.read_time }} min read{% endif %}</small>
+    </a>
+    {%- endfor %}
+</section>
+
+<section class="home-section">
+    {% include buy_box.html ref="blog-index" %}
+</section>

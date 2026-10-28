@@ -1,0 +1,20 @@
+{%- comment -%} Cross-links to the sales pages and guides, excluding the current page. {%- endcomment -%}
+{%- assign uses = site.pages | where: "layout", "sales" | sort: "order" -%}
+<nav class="more-links" aria-label="More from Nested Hex">
+    <div>
+        <h2>Who it's for</h2>
+        <ul>
+            {%- for p in uses %}{% if p.url != page.url %}
+            <li><a href="{{ p.url | relative_url }}">{{ p.nav_title | default: p.title }}</a></li>
+            {%- endif %}{% endfor %}
+        </ul>
+    </div>
+    <div>
+        <h2>Guides</h2>
+        <ul>
+            {%- for p in site.posts limit: 6 %}{% if p.url != page.url %}
+            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+            {%- endif %}{% endfor %}
+        </ul>
+    </div>
+</nav>

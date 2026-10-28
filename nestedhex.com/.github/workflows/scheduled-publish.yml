@@ -1,0 +1,24 @@
+# Publishes future-dated blog posts on schedule.
+#
+# Jekyll skips posts dated in the future (`future: false` in _config.yml), and
+# GitHub Pages only rebuilds when something is pushed. This workflow asks Pages
+# to rebuild every Monday shortly after the scheduled post time, so a post dated
+# e.g. 2026-10-19 10:00 UTC appears on the live site that morning with no commit.
+name: Scheduled publish
+
+on:
+  schedule:
+    - cron: "15 11 * * 1" # Mondays 11:15 UTC (7:15am EDT / 6:15am EST)
+  workflow_dispatch: # "Run workflow" button for an on-demand rebuild
+
+permissions:
+  pages: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds"

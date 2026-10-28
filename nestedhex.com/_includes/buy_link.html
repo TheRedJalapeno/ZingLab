@@ -1,0 +1,1 @@
+{%- comment -%} Stripe Payment Link tagged with the page it came from. Pass ref="some-page" or set ref in the page front matter. {%- endcomment -%}{{ site.buy_url }}?client_reference_id={{ include.ref | default: page.ref | default: 'site' | slugify }}

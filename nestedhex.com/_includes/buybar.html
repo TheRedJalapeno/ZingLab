@@ -1,0 +1,5 @@
+{%- capture bar_ref %}{{ page.ref | default: page.slug | default: 'site' }}-bar{% endcapture -%}
+<div class="buybar" role="region" aria-label="Buy Nested Hex">
+    <span class="buybar-name">Nested Hex 3 pack<small>Made in USA · Free shipping</small></span>
+    <a href="{% include buy_link.html ref=bar_ref %}" target="_blank" rel="noopener">Buy Direct</a>
+</div>

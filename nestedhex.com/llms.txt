@@ -1,0 +1,26 @@
+---
+layout: null
+sitemap: false
+permalink: /llms.txt
+---
+# Nested Hex
+
+> Nested Hex is an adapter that lets 4mm precision screwdriver bits (the small hex-shank bits found in electronics, phone, laptop, eyeglass, and hobby repair kits) fit a standard magnetic screwdriver. Sold as a 3 pack in radiant orange, ultra-tough polymer, half the size of other adapters, full magnetic retention, patent pending ({{ site.patent }}). Designed and made in America by a family-owned business; a ZingLab LLC product. Free shipping within the US. Buy direct at {{ site.url }}/ (secure Stripe checkout). Amazon and Walmart listings coming soon.
+
+## Buy
+
+- [Buy Nested Hex direct]({{ site.buy_url }}?client_reference_id=llms)
+
+## Who it's for
+{% assign uses = site.pages | where: "layout", "sales" | sort: "order" %}{% for p in uses %}
+- [{{ p.nav_title }}]({{ p.url | absolute_url }}): {{ p.description }}{% endfor %}
+
+## Guides
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.description }}{% endfor %}
+
+## Company
+
+- Maker: ZingLab LLC, https://zinglab.com/
+- Privacy: https://zinglab.com/privacy/
+- Terms: https://zinglab.com/terms/

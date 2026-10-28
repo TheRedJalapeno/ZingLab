@@ -1,0 +1,47 @@
+# NestedHex.com — standalone Jekyll site for GitHub Pages.
+title: Nested Hex
+tagline: "Use 4mm precision bits in the magnetic screwdriver you already love"
+description: >-
+  Nested Hex adapters let 4mm precision screwdriver bits fit your standard magnetic screwdriver.
+  3 pack of ultra-tough orange adapters, half the size of other adapters, made in America by a
+  family-owned business. Free shipping within the US.
+url: "https://nestedhex.com"
+baseurl: ""
+lang: en_US
+timezone: America/New_York
+logo: /assets/favicon.png
+author:
+  name: ZingLab
+  url: https://zinglab.com/
+social:
+  name: Nested Hex
+  links:
+    - https://zinglab.com/nestedhex/
+
+# Every "Buy" link on the site goes to this Stripe Payment Link. Each link adds
+# ?client_reference_id=<page> so Stripe shows which page a sale came from.
+buy_url: "https://buy.stripe.com/eVq7sKcfU57N6GWdkP9IQ0e"
+patent: "19/643,254"
+
+# Posts dated in the future are not published until a rebuild on/after their date
+# (see .github/workflows/scheduled-publish.yml).
+future: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: ZingLab
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
