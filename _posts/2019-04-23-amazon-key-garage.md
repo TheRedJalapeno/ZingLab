@@ -8,7 +8,7 @@ description: "Amazon Key for Garage product launch. This marketing campaign laun
 keywords: "digital marketing, go to market, product launch, national campaign, good morning america, amazon, amazon key"
 image: "/assets/portfolio/amazon-key-garage-h5-1.jpg"
 date: 2019-04-23
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/amazon-key-for-garage/
 ---
 

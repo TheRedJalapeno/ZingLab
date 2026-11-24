@@ -7,7 +7,7 @@ description: "A five-month, four-email Year of Free campaign reaching 200,000+ r
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-year-of-free-1.jpg"
 date: 2018-09-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-yof/
 ---
 

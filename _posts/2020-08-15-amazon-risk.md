@@ -7,7 +7,7 @@ description: "Single threaded leader of a multi-billion dollar global performanc
 keywords: "marketing technology, performance marketing, international marketing, change management, digital transformation, go to market, product launch, national campaign, amazon, fintech, finance, financial technology"
 image: "/assets/logo_amazon.webp"
 date: 2020-08-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/amazon-risk-mitigation/
 ---
 

@@ -8,7 +8,7 @@ description: "Improved client site uptime from 94% to 99.9% while reducing costs
 keywords: "marketing technology, change management"
 image: "/assets/logo_campusadv.webp"
 date: 2018-11-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-server/
 ---
 

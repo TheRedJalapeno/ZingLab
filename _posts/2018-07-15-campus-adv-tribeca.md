@@ -7,7 +7,7 @@ description: "The Tribeca campaign was a one-off campaign for a potential client
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-tribeca-luxe-life-lp.jpg"
 date: 2018-07-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-tribeca/
 ---
 

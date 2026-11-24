@@ -7,7 +7,7 @@ description: "Amazon Key for Home integration announcement for Ring video doorbe
 keywords: "email marketing, digital marketing, go to market, product launch, national campaign, amazon, amazon key"
 image: "/assets/portfolio/amazon-key-home-h1.jpg"
 date: 2019-03-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/amazon-key-for-home/
 ---
 

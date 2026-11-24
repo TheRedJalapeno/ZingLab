@@ -30,17 +30,15 @@ url: "https://zinglab.com"
 lang: en_US
 locale: en_US
 timezone: America/New_York
-github_username: TheRedJalapeno
+github_username: ZingLab
 logo: /assets/logo.png
 author:
-  name: Robert Allen
+  name: ZingLab
   url: https://zinglab.com/about/
 social:
   name: ZingLab
   links:
-    - https://github.com/TheRedJalapeno
-    - https://www.linkedin.com/in/robertdallenmba/
-    - https://www.crunchbase.com/person/robert-allen-55cf
+    - https://github.com/ZingLab
 
 # Posts dated in the future are NOT published. Scheduled posts go live when
 # .github/workflows/scheduled-publish.yml rebuilds the site every Monday.
@@ -63,7 +61,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author: Robert Allen
+      author: ZingLab
   - scope:
       path: "2024-deprecated"
     values:

@@ -7,7 +7,7 @@ description: "While managing 70+ client websites, I often built cool value-add p
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-upgrades-lp.jpg"
 date: 2018-05-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-misc/
 ---
 

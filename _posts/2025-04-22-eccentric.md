@@ -7,7 +7,7 @@ description: "An exploration of ADHD, its history, and its misclassification as 
 keywords: "ADHD, neurodivergence, history, psychology, eccentricity"
 image: "/assets/2024_adhd_quiz.jpg"
 date: 2025-04-22
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /blog/eccentricity/
 tldr_label: "TLDR"
 tldr: |
@@ -80,7 +80,6 @@ To esteemed members of the American Psychological Association, I petition you to
 
 To my fellow Eccentrics, you are alright. You are better than alright. You are the change agents of human civilization. You are the best humanity has to offer. If Superman had been in our world, he would have been imprisoned from childhood for breaking every hand he ever shook. They don't know your value, and they have no right to call you broken, even if they did their best to break you. Be weird. Be fun. Be wild. Unmask and relearn who you are.
 
--Robert Allen
 
 ## Sources
 

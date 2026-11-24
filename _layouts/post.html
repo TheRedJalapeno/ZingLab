@@ -91,8 +91,10 @@ layout: default
 
   {%- if page.type == "blog" %}
   <section class="post-author-box">
-    <h2>About the author</h2>
-    {% include about_robert.html %}
+    <h2>About ZingLab</h2>
+    <p>ZingLab builds custom web apps, websites, AI integrations, and marketing technology for businesses,
+      and runs its own software products, including HotGato, Zoetrope, RingFence, and LeadAlign.
+      <a href="/">See what we build</a> or <a href="mailto:info@zinglab.com?subject=Project%20inquiry">start a project</a>.</p>
   </section>
 
   {%- assign related = site.posts | where: "type", "blog" | where: "topic", page.topic -%}
@@ -346,9 +348,15 @@ layout: default
   }
 
   .related-posts a,
-  .post-cta a {
+  .post-cta a,
+  .post-author-box a {
     color: #ff6f00;
     text-decoration: underline;
+  }
+
+  .post-author-box p {
+    display: block;
+    color: #555;
   }
 
   .post-cta {

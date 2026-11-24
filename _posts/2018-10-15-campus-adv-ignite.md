@@ -7,7 +7,7 @@ description: "Robust email marketing program aimed at students and young profess
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-ignite-your-brand-email-1.jpg"
 date: 2018-10-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-ignite/
 ---
 

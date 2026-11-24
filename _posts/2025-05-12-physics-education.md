@@ -4,10 +4,10 @@ title:  "Physics Education: Shortcomings in Modern Higher Education"
 type: blog
 topic: "Essays"
 description: "Would Albert Einstein survive a modern physics degree? Why math-first curricula may be filtering out the intuitive thinkers who drive breakthroughs."
-keywords: "physics education, higher education reform, Albert Einstein, intuitive physics, STEM curriculum, Robert Allen"
+keywords: "physics education, higher education reform, Albert Einstein, intuitive physics, STEM curriculum"
 image: "/assets/zinglab.png"
 date: 2025-05-12 19:21:00 
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /blog/physics-education/
 ---
 

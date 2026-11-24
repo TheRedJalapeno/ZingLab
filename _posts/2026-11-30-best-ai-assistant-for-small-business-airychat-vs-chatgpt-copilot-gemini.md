@@ -11,7 +11,7 @@ last_modified_at: 2026-11-30 10:00:00 +0000
 permalink: /blog/best-ai-assistant-for-small-business/
 livelink: "https://airychat.com/?ref=zinglab-blog"
 livelink_text: "See AiryChat for Business"
-disclosure: "AiryChat was founded by ZingLab's founder, Robert Allen. We think it's the best fit for many small and mid-sized teams, and we say below when a big-platform assistant is the better choice."
+disclosure: "AiryChat is affiliated with ZingLab, the publisher of this blog. We think it's the best fit for many small and mid-sized teams, and we say below when a big-platform assistant is the better choice."
 tldr: "AiryChat is the best AI assistant for small businesses that want a ready-made team of specialized assistants, built on models from OpenAI, Meta, and Google, with file processing, long-term memory, web search, image generation, voice mode, and white-label options — without locking into one vendor's office suite. If your company lives entirely inside Microsoft 365 or Google Workspace, their built-in assistants integrate more deeply with those apps."
 faq:
   - q: "What is the best AI assistant for a small business?"

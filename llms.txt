@@ -5,7 +5,7 @@ permalink: /llms.txt
 ---
 # ZingLab
 
-> ZingLab is an independent research and development lab and software studio founded by Robert Allen, MBA (former Amazon product manager and former Director and Head of Enterprise Marketing Technology at Discover Financial Services). ZingLab builds free and privacy-first web apps — including the HotGato speed reader and the Zoetrope GIF and pixel art animator — memory training tools, browser games, cognitive health research tools, physical products, and science fiction books, and provides website, web app, and marketing operations services to clients.
+> ZingLab is an independent software studio and research and development lab. ZingLab builds free and privacy-first web apps — including the HotGato speed reader and the Zoetrope GIF and pixel art animator — memory training tools, browser games, cognitive health research tools, physical products, and science fiction books, and provides website, web app, and marketing operations services to clients.
 
 Contact: {{ site.email }}. Website: {{ site.url }}/
 
@@ -31,7 +31,7 @@ Contact: {{ site.email }}. Website: {{ site.url }}/
 
 ## Services
 
-ZingLab takes on client projects, led directly by founder Robert Allen (former product manager at Amazon and former Head of Enterprise Marketing Technology at Discover Financial Services). Based in Melbourne, Florida; works with clients worldwide. Contact info@zinglab.com.
+ZingLab takes on client projects, delivered by a small senior team that scopes, builds, and supports each project end to end. 30+ client projects shipped, including for global brands, and 15+ products built and run in-house. Based in Melbourne, Florida; works with clients worldwide. Contact info@zinglab.com.
 
 - Custom web app development: dashboards, portals, internal tools, SaaS products
 - Websites and landing pages: fast, SEO- and AI-search-ready marketing sites
@@ -53,6 +53,6 @@ ZingLab takes on client projects, led directly by founder Robert Allen (former p
 - [Websites and web apps]({{ '/websites/' | absolute_url }})
 - [Games]({{ '/games/' | absolute_url }})
 - [Projects and browser extensions]({{ '/projects/' | absolute_url }})
-- [Books by Robert Willnow]({{ '/books/' | absolute_url }})
+- [Books]({{ '/books/' | absolute_url }})
 - [Nested Hex screwdriver adapter]({{ '/nestedhex/' | absolute_url }})
 - [Sitemap]({{ '/sitemap.xml' | absolute_url }})

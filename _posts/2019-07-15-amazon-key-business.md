@@ -7,7 +7,7 @@ description: "Amazon Key for Business product launch. This marketing campaign la
 keywords: "email marketing, digital marketing, go to market, product launch, national campaign, good morning america, amazon, amazon key"
 image: "/assets/portfolio/amazon-key-business-email-2.jpg"
 date: 2019-07-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/amazon-key-for-business/
 ---
 

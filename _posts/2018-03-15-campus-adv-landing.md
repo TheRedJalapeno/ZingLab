@@ -7,7 +7,7 @@ description: "These four landing page templates showcase the most unique element
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-landing-page-template-1-lifestyle.jpg"
 date: 2018-03-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-landing/
 ---
 

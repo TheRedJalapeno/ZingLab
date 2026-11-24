@@ -7,7 +7,7 @@ description: "The Yacht Harbor Club Informative Campaign was one of three simult
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-yaha-realtor-informative-lp.jpg"
 date: 2018-06-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-yacht-harbor/
 ---
 

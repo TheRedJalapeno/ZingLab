@@ -7,7 +7,7 @@ description: "As part of the portfolio refresh initiative, we wanted to sell new
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-homepage-template-2-lifestyle.jpg"
 date: 2018-04-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-adv-home/
 ---
 

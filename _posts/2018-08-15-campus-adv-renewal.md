@@ -7,7 +7,7 @@ description: "B2C email marketing campaign sent to 200,000 renters to renew earl
 keywords: "digital marketing, go to market, product launch, national campaign"
 image: "/assets/portfolio/ca-renewal-2019-landing-page.jpg"
 date: 2018-08-15
-author: "Robert Allen"
+author: "ZingLab"
 permalink: /portfolio/campus-renewal/
 ---
 

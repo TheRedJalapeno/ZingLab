@@ -11,7 +11,7 @@ last_modified_at: 2026-11-02 10:00:00 +0000
 permalink: /blog/best-online-games-like-risk/
 livelink: "https://tothevictorgame.com/?ref=zinglab-blog"
 livelink_text: "Start a war in To The Victor"
-disclosure: "To The Victor is made by ZingLab, the publisher of this blog, and is based on a board game designed by our founder's family in 2014."
+disclosure: "To The Victor is made by ZingLab, the publisher of this blog, and is based on the 2014 board game of the same name."
 tldr: "To The Victor is the best Risk-style game for playing online with friends when you have half an hour, not half a day. It has no dice, four ways to win, 2–6 players, room codes for instant private games, and typical matches of about 30 minutes. Risk: Global Domination is the most faithful official Risk; Warzone is best for endlessly custom maps."
 faq:
   - q: "What is the best game like Risk to play online with friends?"
@@ -23,7 +23,7 @@ faq:
   - q: "How many players can play To The Victor?"
     a: "Two to six commanders per game."
   - q: "What is To The Victor based on?"
-    a: "It's the digital version of the 2014 board game To The Victor by Robert Allen and Willow Allen, a mashup inspired by Settlers of Catan, Risk, and Munchkin — resource building, world conquest, and a little backstabbing."
+    a: "It's the digital version of the 2014 board game To The Victor, a mashup inspired by Settlers of Catan, Risk, and Munchkin — resource building, world conquest, and a little backstabbing."
 ---
 
 Risk is a great game with two famous problems: **it takes forever**, and **dice decide too much**. Everyone has a story about the one defending army that held off an invasion of twenty. Online versions fix the setup time but usually keep both problems.

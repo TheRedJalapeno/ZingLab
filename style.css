@@ -1538,3 +1538,9 @@ section.about img.author-photo {
         display: none;
     }
 }
+
+.home .home-card a {
+    color: #ff6f00;
+    font-weight: 700;
+    text-decoration: underline;
+}
